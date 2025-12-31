@@ -87,10 +87,20 @@ export default function Footer() {
 
       </div>
 
+   
+
       <div className="flex flex-col items-center pt-8">
+
         <p className="mt-4 text-xs">
           &copy; {currentYear} {BRAND_NAME}. {t('copyright')}
         </p>
+          <p  className="text-center text-xs text-muted-foreground pt-4">
+
+    <strong>Disclaimer:</strong> This application is an independent third-party tool. 
+    We are not affiliated with, endorsed by, or connected to the Tencent Hunyuan Team. 
+    Our service utilizes the Hunyuan Motion model via authorized public APIs.
+  </p>
+
       </div>
     </footer>
   );
