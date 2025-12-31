@@ -59,7 +59,7 @@ export function Header({ toolMetaConfigs }: HeaderProps) {
     // },
     {
       label: t("playground-label"),
-      href: `/#${PLAYGROUND_SECTION_ID}`,
+      href: `/playground`,
       icon: <Box className="mr-2 h-4 w-4"></Box>,
     },
      {
