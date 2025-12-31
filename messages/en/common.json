@@ -1,0 +1,258 @@
+{
+    "navigation": {
+        "home": "Home",
+        "tools": "Tools",
+        "about": "About",
+        "contact": "Contact",
+        "login": "Login",
+        "getStarted": "Start Animating"
+    },
+    "seo": {
+         "title": "HY-Motion AI - Text-to-3D Animation Generator | hy-motion.ai",
+    "description": "HY-Motion 1.0 is an AI tool to generate realistic 3D character animations from text. Try free text-to-animation generation for games, VR, film, and marketing applications.",
+    "keywords": "HY-Motion, text-to-3D, 3D animation, AI motion generator, skeleton animation, Tencent HY-Motion, character animation, game animation, VR animation",
+        "ogImage": "https://cdn.hy-motion.ai/visual-logo/opengraph.webp",
+        "creator": "@hy-motion"
+    },
+    "account": {
+        "upgrade": "Go Pro",
+        "account": "Dashboard"
+    },
+    "modelsSection": {
+        "title": "Motion Models",
+        "description": "Choose between the SOTA 1.0B parameter model for quality or the Lite version for speed.",
+        "viewAll": "View Benchmarks"
+    },
+    "header": {
+        "playground-label": "Motion Lab",
+        "join-waitlist": "Join Pro Waitlist",
+        "formula-ocr": "API Docs",
+        "pricingLabel": "Pricing",
+        "loginLabel": "Login",
+        "ocr-tools": "Tools",
+        "switch-language": "Language",
+        "modelsLabel": "Models",
+        "createLabel": "Animate",
+        "galleryLabel": "Showcase"
+    },
+    "footer": {
+        "tagline": "Text to Motion. Game Ready. Instantly.",
+        "copyright": " All rights reserved.",
+        "sections": [
+            {
+                "title": "PRODUCT",
+                "links": [
+                    {
+                        "text": "Motion Generator",
+                        "href": "/#playground"
+                    },
+                    {
+                        "text": "Pro Waitlist",
+                        "href": "/waitlist"
+                    }
+                ]
+            },
+            {
+                "title": "SUPPORT",
+                "links": [
+                    {
+                        "text": "About HY-Motion",
+                        "href": "/about"
+                    },
+                    {
+                        "text": "Contact Support",
+                        "href": "/contact"
+                    },
+                    {
+                        "text": "Terms of Service",
+                        "href": "/terms"
+                    },
+                    {
+                        "text": "Privacy Policy",
+                        "href": "/privacy"
+                    }
+                ]
+            }
+        ],
+        "friendslinklabel": "PARTNERS"
+    },
+    "modelPlayground": {
+         "resultCard":{
+            "download":"Download BVH"
+        },
+        "modelSelector":{
+            "searchPlaceholder":"Search motion models...",
+            "searchPlaceholder2":"Select version...",
+            "noModelFound":"No model found."
+        },
+        "prompt":{
+            "prompt":"Motion Description",
+            "random":"Surprise Me",
+            "image":"Motion",
+            "images":"Motions",
+            "chars": "chars"
+        },
+        "toasts": {
+            "modelInvalid": "Invalid model version",
+            "imagesTruncated": "Batch limit reached for this tier",
+            "generationTimedOut": "Inference timed out. Please try again.",
+            "generationCompleted": "Motion generated successfully!",
+            "noImagesReturned": "No motion data returned",
+            "generationFailed": "Generation failed",
+            "statusCheckFailed": "Failed to check inference status",
+            "enterPrompt": "Please describe a motion (e.g., 'Jump kick')",
+            "uploadReferenceImage": "Please upload a reference pose",
+            "uploadFailed": "Failed to upload reference",
+            "invalidApiResponse": "Invalid API response from Hunyuan node",
+            "failedToGenerate": "Failed to generate animation",
+            "onlyImagesAllowed": "Only valid files allowed",
+            "fileSizeLimit": "File {name} exceeds limit",
+            "sessionStatusLoading": "Initializing 3D Engine..."
+        },
+        "controls": {
+            "optional": "Optional",
+            "modelLabel": "Model Version",
+            "selectModelPlaceholder": "Select version...",
+            "searchModelPlaceholder": "Search...",
+            "noModelFound": "Model not found.",
+            "referenceImageLabel": "Reference Pose (ControlNet)",
+            "clickOrDrag": "Click or drag reference image",
+            "uploadConstraints": "Optional: Upload a starting pose",
+            "addImage": "Add Pose",
+            "promptLabel": "Text Prompt",
+            "randomButton": "Random Idea",
+            "promptPlaceholder": "A ninja performing a backflip and landing on one knee...",
+            "selectRatioPlaceholder": "Duration",
+            "imageCountPlaceholder": "Variations",
+            "generateButton": "Generate Motion",
+            "generatingButton": "Calculating Physics...",
+            "resetButtonTitle": "Reset",
+            "credits": "credits",
+            "chars": "chars",
+            "images": "Clips",
+            "image": "Clip",
+            "pro": "(Pro)",
+            "aspectRatio": "Duration (Sec)"
+        },
+        "display": {
+            "readyToGenerate": "Ready to Animate",
+            "selectToStart": "Describe a movement to generate a 3D skeleton",
+            "generationHistory": "History",
+            "promptLabel": "Prompt:",
+            "downloadImage": "Download BVH (Raw)",
+            "downloadHighRes": "Download FBX (Game Ready)",
+            "useThisPrompt": "Remix this Motion"
+        },
+        "dialogs": {
+            "uploadLimitTitle": "File Limit Reached",
+            "uploadLimitDescription": "You can only upload 1 reference file at a time.",
+            "understoodAction": "Got it"
+        },
+        "modelTypes": {
+            "textToImage": "text-to-motion",
+            "tiToImage": "motion-to-motion",
+            "imageToImage": "pose-to-motion",
+            "imageGeneration": "motion-generation"
+        },
+        "errors": {
+            "timeout": "Generation timeout (2min)",
+            "failed": "Generation Failed",
+            "pollingError": "Network Error"
+        },
+        "pricingArena": {
+            "title": {
+                "loggedIn": "Upgrade to HY-Motion Pro",
+                "loggedOut": "Sign in to Save Assets"
+            },
+            "description": {
+                "loggedIn": "Unlock FBX auto-retargeting and commercial license.",
+                "loggedOut": "Create a free account to generate 5 motions daily."
+            },
+            "plans": {
+                "free": {
+                    "title": "Starter",
+                    "features": [
+                        {
+                            "icon": "Check",
+                            "text": "5 Daily Credits",
+                            "highlight": false
+                        },
+                        {
+                            "icon": "Check",
+                            "text": "Standard BVH Export",
+                            "highlight": false
+                        },
+                        {
+                            "icon": "X",
+                            "text": "No Commercial Use",
+                            "highlight": false
+                        }
+                    ],
+                    "cta": "Login to Start"
+                },
+                "basic": {
+                    "title": "Creator",
+                    "features": [
+                        {
+                            "icon": "Zap",
+                            "text": "500 Fast Credits / mo",
+                            "highlight": true
+                        },
+                        {
+                            "icon": "Check",
+                            "text": "FBX Auto-Retargeting",
+                            "highlight": true
+                        },
+                        {
+                            "icon": "Check",
+                            "text": "Commercial License",
+                            "highlight": false
+                        }
+                    ],
+                    "cta": "Upgrade Creator"
+                },
+                "pro": {
+                    "badge": "BEST VALUE",
+                    "title": "Studio",
+                    "features": [
+                        {
+                            "icon": "Rocket",
+                            "text": "2000 Fast Credits / mo",
+                            "highlight": true
+                        },
+                        {
+                            "icon": "Infinity",
+                            "text": "Priority Inference Queue",
+                            "highlight": true
+                        },
+                        {
+                            "icon": "Database",
+                            "text": "Unlimited Cloud Library",
+                            "highlight": true
+                        }
+                    ],
+                    "cta": "Upgrade Studio"
+                }
+            },
+            "footer": {
+                "promo": "🚀 Launch Special: Join Waitlist for 50% OFF",
+                "viewPlans": "View Roadmap",
+                "guarantee": "Secure checkout via Stripe."
+            }
+        }
+    },
+    "gallery": {
+        "copyToast": {
+            "copiedLabel": "Copied!",
+            "copiedDesc": "Prompt copied to clipboard"
+        },
+        "copyLabel": "Copy",
+        "remixLabel": "Remix"
+    },
+    "notFound":{
+        "title":"404: T-Pose Error",
+        "subTitle":"Motion Not Found",
+        "description": "Our kinematics engine couldn't find this page. It might have drifted out of the bounding box.",
+        "button": "Return to Idle State"
+    }
+}

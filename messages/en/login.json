@@ -1,0 +1,41 @@
+{
+    "seo": {
+        "title": "Login to Z-Image | Start Creating for Free",
+        "description": "Join the Z-Image community. Get free daily credits to generate photorealistic AI images instantly."
+    },
+    "hero": {
+        "quote": "The speed of Z-Image Turbo is mind-blowing. I generated this poster in less than a second, and the detail rendering is flawless.",
+        "footer": "Generated with Z-Image Turbo"
+    },
+    "page": {
+        "welcome": "Welcome back",
+        "signInText": "Sign in to your account to get <highlight>{credits} free generations</highlight> today.",
+        "terms": "By clicking continue, you agree to our <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>."
+    },
+    "form": {
+        "title": "Login",
+        "emailLabel": "Email",
+        "emailPlaceholder": "you@example.com",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "********",
+        "submit": "Login",
+        "loading": "Loading...",
+        "errors": {
+            "userNotFound": "No account found with this email address",
+            "invalidPassword": "The password you entered is incorrect",
+            "socialLogin": "This account uses social login. Please sign in with Google or GitHub",
+            "default": "Invalid email or password",
+            "generic": "An error occurred during login. Please try again later"
+        },
+        "logs": {
+            "redirected": "User redirected from successful registration",
+            "starting": "Starting login process for email: {email}...",
+            "callingSignIn": "Calling signIn with credentials",
+            "signInResult": "SignIn result status: {status}, error: {error}",
+            "loginFailed": "Login failed with error: {error}",
+            "success": "Login successful, redirecting to chat",
+            "uncaughtError": "Uncaught error during login: {error}"
+        },
+        "debugLog": "Debug Log:"
+    }
+}

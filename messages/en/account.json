@@ -1,0 +1,60 @@
+{
+    "page": {
+        "hello": "Hello, ",
+        "friend": "Friend",
+        "joinCommunity": "Join the Creative Community",
+        "signInDesc": "Sign in to unlock your creative potential and access all AI tools",
+        "signIn": "Sign In"       
+    },
+    "settings": {
+        "title": "Account Settings",
+        "subscriptionTitle": "Subscription & Credits",
+        "subscriptionDesc": "Your current plan and credit balance",
+        "currentPlan": "Current Plan",
+        "upgrade": "Upgrade",
+        "creditBalance": "Credit Balance",
+        "creditsDesc": "Credits are used to generate images and run tools",
+        "manageSubscription": "Manage Subscription",
+        "accountActions": "Account Actions",
+        "logout": "Logout"
+    },
+    "subscription": {
+        "title": "Subscription Management",
+        "description": "Manage your subscription and credits",
+        "viewDetails": "View and manage your subscription details"
+    },
+    "subscriptionDetails": {
+        "title": "Subscription Details",
+        "loading": "Loading your subscription information...",
+        "info": "Your current subscription information",
+        "currentPlan": "Current Plan",
+        "creditBalance": "Credit Balance",
+        "terminationDate": "Termination Date",
+        "nextBilling": "Next Billing Cycle",
+        "notAvailable": "Not available",
+        "status": "Subscription Status",
+        "nextReset": "Next Reset Cycle",
+        "upgrade": "Upgrade",
+        "manage": "Manage Subscription",
+        "cancelTitle": "Cancel Subscription",
+        "close": "Close",
+        "cancelConfirm": "Are you sure you want to cancel your subscription? You will lose access to premium features after current subscription period ends({date}).",
+        "processing": "Processing cancellation...",
+        "failed": "Cancellation failed",
+        "keep": "Keep",
+        "cancel": "Cancel",
+        "cancelling": "Cancelling...",
+        "reactivate": "Reactivate Subscription",
+        "back": "Back to Account",
+        "loadError": "Failed to load subscription details. Please try again later.",
+        "retry": "Retry",
+        "cancelSuccess": "Subscription cancelled successfully",
+        "cancelError": "Failed to cancel subscription",
+        "statusFree": "Free Plan",
+        "statusCanceled": "Canceled",
+        "statusActive": "Active",
+        "statusExpired": "Expired",
+        "statusUnknown": "Unknown",
+        "planBenefits": "Plan Benefits"
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "page": {
+        "title": "Gallery | Z-Image - AI Art Collection",
+        "description": "Browse our collection of AI-generated images across multiple categories: Portraits, Anime, Scenery, Typography, and Chinese Style art.",
+        "ogTitle": "Z-Image Gallery",
+        "ogDescription": "Browse stunning AI-generated artwork",
+        "header": {
+            "title": "Z-Image Gallery",
+            "subtitle": "Explore stunning AI-generated artwork"
+        }
+    },
+    "slugPage": {
+        "notFound": {
+            "title": "Not Found",
+            "description": "Image not found"
+        },
+        "titleSuffix": " | Z-Image Gallery"
+    },
+    "categories": {
+        "All": "All",
+        "Portrait": "Portrait",
+        "Scenery": "Scenery",
+        "Typography": "Typography",
+        "Creative Art": "Creative Art",
+        "Illustration": "Illustration"
+    },
+    "card": {
+        "copied": "Copied!",
+        "copiedDesc": "Prompt copied to clipboard",
+        "copy": "Copy",
+        "remix": "Remix"
+    },
+    "modal": {
+        "copied": "Copied!",
+        "copiedDesc": "Prompt copied to clipboard",
+        "downloadStarted": "Download started",
+        "downloadFailed": "Failed to download image",
+        "backToGallery": "Back to Gallery",
+        "imageDetails": "Image Details",
+        "createNew": "Create New",
+        "prompt": "Prompt",
+        "details": "Details",
+        "category": "Category",
+        "aspectRatio": "Aspect Ratio",
+        "remixButton": "Remix this Prompt",
+        "backToGalleryButton": "Back To Gallery",
+        "shareTwitter": "Share on Twitter",
+        "shareText": "Check out this AI-generated image: \"{prompt}\""
+    },
+    "grid": {
+        "loading": "Loading gallery...",
+        "noImages": "No images found",
+        "tryDifferent": "Try a different category"
+    }
+}

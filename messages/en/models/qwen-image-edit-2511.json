@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "slug": "qwen-image-edit-2511",
+    "name": "Qwen Image Edit 2511",
+    "description": "AI editing with perfect consistency",
+    "cover": {
+      "url": "https://cdn.z-image.app/models/qwen-image-edit-2511/og-qwen-image-edit-2511.webp",
+      "alt": "A dynamic image collage showing seamless multi-person editing and precise text insertion, representing Qwen Image Edit 2511 capabilities."
+    }
+  },
+  "seo": {
+    "title": "Qwen Image Edit 2511 AI Editor - Consistent Multi-Person Photo Edits | z-image.app",
+    "description": "Experience Qwen Image Edit (2511), Alibaba’s advanced AI image editor. Perform precise text edits, preserve every subject’s identity, and handle complex product or design changes. Perfect for group photos, product marketing, and creative transformations.",
+    "keywords": [
+      "Qwen Image Edit 2511",
+      "AI Image Editing",
+      "Multi-Person Consistency",
+      "Identity Preservation",
+      "LoRA Style Editing",
+      "Text in Image AI",
+      "Product Design AI",
+      "Alibaba Qwen Model"
+    ],
+    "ogImage": "https://cdn.z-image.app/models/qwen-image-edit-2511/og-qwen-image-edit-2511.webp",
+    "creator": "@yeekal",
+    "structuredData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Qwen Image Edit 2511",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Web",
+        "description": "Qwen Image Edit (2511) is an advanced AI image editing model by Alibaba, offering high consistency edits, multi-subject identity preservation, precise text editing, and industrial design support.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "creator": {
+          "@type": "Organization",
+          "name": "z-image.app"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "1450"
+        }
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Advanced Image Editor",
+    "title": "Qwen Image Edit (2511): Precision & Consistency Unleashed",
+    "tagline": "Alibaba’s latest AI image editor powers detailed photo edits at scale. Whether touching up group portraits, refining product visuals, or swapping out text, Qwen Image Edit (2511) preserves every detail and identity.",
+    "features": [
+      {
+        "icon": "Users",
+        "text": "Group Photo Consistency"
+      },
+      {
+        "icon": "Type",
+        "text": "Bilingual Text Editing"
+      },
+      {
+        "icon": "Box",
+        "text": "Industrial Design Edits"
+      }
+    ]
+  },
+  "imageGallery": {
+    "title": "Qwen Image Edit (2511) Showcase: Consistency & Creativity",
+    "description": "Browse real editing examples: from family portraits to product mockups. Qwen Image Edit (2511) applies your instructions while keeping lighting and composition coherent, with crisp text and flawless identity preservation.",
+    "images": []
+  },
+  "how_to": {
+    "title": "How to Use Qwen Image Edit (2511)",
+    "description": "Achieve professional edits in three simple steps using our web interface.",
+    "steps": [
+      {
+        "icon": "MousePointerClick",
+        "title": "1. Select the Model",
+        "description": "In the top-left model selector, choose **Qwen Image Edit (2511)** to activate this AI editor.",
+        "media": {
+          "type": "image",
+          "url": "https://z-image.app/models/qwen-image-edit-2511/step1-select.webp",
+          "alt": "UI dropdown with Qwen Image Edit (2511) selected as the editing model."
+        }
+      },
+      {
+        "icon": "Image",
+        "title": "2. Upload Image & Prompt",
+        "description": "Upload your base image (and optional reference images). Enter a clear instruction prompt describing the edits (e.g., \"Add a smartphone on the table without moving anything else, keeping the lighting consistent\").",
+        "media": {
+          "type": "image",
+          "url": "https://z-image.app/models/qwen-image-edit-2511/step2-upload.webp",
+          "alt": "User uploading a photo and entering a text prompt to describe the desired edit."
+        }
+      },
+      {
+        "icon": "Zap",
+        "title": "3. Generate & Adjust",
+        "description": "Click **Generate** to let Qwen Image Edit (2511) process your edit. The result will apply your changes (new objects, text, or style) while preserving the original subjects. If needed, refine with additional prompts or corrections (like \"enhance the red color\" or \"keep subject's face unchanged\") and re-run.",
+        "media": {
+          "type": "image",
+          "url": "https://z-image.app/models/qwen-image-edit-2511/step3-result.webp",
+          "alt": "Example output of an edited image showing added objects and text with clear detail."
+        }
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Consistent Edits, Endless Possibilities",
+    "description": "Qwen Image Edit (2511) solves the toughest editing challenges: it keeps faces consistent in group photos, maintains product geometry, and renders on-image text correctly. Use it anywhere reliable, high-quality editing is needed.",
+    "scenarios": [
+      {
+        "key": "photography",
+        "shortTitle": "Group Photo Editing",
+        "originalTitle": "Perfect Group Portraits",
+        "tagline": "Flawless group shots",
+        "description": "Wedding and event photographers use Qwen Image Edit (2511) to remove unwanted objects or add people into family photos. The model preserves each person’s facial identity and adjusts lighting and shadows correctly, creating a natural group portrait without distortions.",
+        "image": {
+          "src": "https://cdn.z-image.app/models/qwen-image-edit-2511/green-jacket-anime-girl.webp",
+          "alt": "A wedding group photo where a new guest has been seamlessly added to the lineup."
+        }
+      },
+      {
+        "key": "ecommerce",
+        "shortTitle": "Product Design Mockups",
+        "originalTitle": "Enhanced Product Visuals",
+        "tagline": "Brand-ready product images",
+        "description": "Online retailers and designers refine product photos by adding features like labels, background props, or color changes. Qwen Image Edit (2511)’s advanced geometry understanding means added graphics stay aligned and realistic (for example, new logos appear flat on curved surfaces), perfect for polished catalogs and ads.",
+        "image": {
+          "src": "https://cdn.z-image.app/models/qwen-image-edit-2511/ecommerce-product.webp",
+          "alt": "ecommerce-product"
+        }
+      },
+      {
+        "key": "marketing",
+        "shortTitle": "Dynamic Ad Creation",
+        "originalTitle": "Multilingual Marketing Content",
+        "tagline": "Ads in any language",
+        "description": "Marketing teams generate ad banners by editing photos directly – updating slogans, translating text, or swapping logos. With native text support, Qwen Image Edit (2511) keeps fonts and styles intact. For example, a storefront sign can be edited to show new promotional text in multiple languages while the scene remains cohesive.",
+        "image": {
+          "src": "https://cdn.z-image.app/models/qwen-image-edit-2511/marketing-banner.webp",
+          "alt": "A promotional banner showing an English and Chinese version side by side, demonstrating text editing in images."
+        }
+      },
+      {
+        "key": "creativity",
+        "shortTitle": "Character & Style Edits",
+        "originalTitle": "Creative Art and Storyboarding",
+        "tagline": "Consistent characters, new styles",
+        "description": "Artists and content creators iterate character designs by rotating views, changing outfits, or applying different art styles. Qwen Image Edit (2511) lets you fix a character’s face reference and then generate scenes in varied settings or artistic styles (e.g. realistic, anime, or Ghibli-inspired) without losing character identity or proportions.",
+        "image": {
+          "src": "https://cdn.z-image.app/models/qwen-image-edit-2511/anime-girl.webp",
+          "alt": "Three versions of the same character posed differently and rendered in different art styles."
+        }
+      }
+    ]
+  },
+  "features": {
+    "title": "What Makes Qwen Image Edit (2511) Special",
+    "description": "Under the hood, Qwen Image Edit (2511) builds on a powerful 20B parameter foundation with cutting-edge improvements. Here are its most compelling advantages:",
+    "items": [
+      {
+        "icon": "Users",
+        "title": "Multi-Person Consistency",
+        "description": "Whether it’s family snapshots or team photos, this model handles multiple subjects without swapping faces or misplacing people. It intelligently blends separate images into one cohesive group photo, maintaining identities and relative poses."
+      },
+      {
+        "icon": "User",
+        "title": "Identity Preservation",
+        "description": "Upload a reference of a person or character and expect their face to remain recognizable. Qwen Image Edit (2511) dramatically reduces the common issue of distorted features when changing poses, expressions, or lighting, ensuring each subject looks like themselves."
+      },
+      {
+        "icon": "Type",
+        "title": "Native Text Editing",
+        "description": "Add, remove, or change in-image text (in English or Chinese) with near-perfect fidelity. The model treats text as a distinct element, so fonts, sizes, and alignments stay natural – ideal for signboards, packaging, or any graphic design work requiring legible text."
+      },
+      {
+        "icon": "Layers",
+        "title": "Built-In LoRA Styles",
+        "description": "Use popular community style LoRAs out-of-the-box. Qwen Image Edit (2511) comes pre-loaded with selected artistic and photographic style filters, so you can apply effects like a specific lighting or cartoon style without manual tuning."
+      },
+      {
+        "icon": "Ruler",
+        "title": "Structural & Geometric Aware",
+        "description": "With enhanced geometric reasoning, it understands shapes and perspective. When adding or removing elements (like a sign, furniture, or building), it aligns them correctly and even generates auxiliary guides (e.g. blueprint lines or reflections) for design purposes."
+      },
+      {
+        "icon": "Box",
+        "title": "Industrial Design Focus",
+        "description": "Engineered for product visuals, it produces cleaner surfaces and symmetrical edits. Designers can do tasks like changing product colors, adding labels, or visualizing packaging updates knowing the model respects edges and proportions for a professional result."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is Qwen Image Edit (2511)?",
+        "answer": "Qwen Image Edit (2511) is Alibaba’s latest open-source AI image editing model. It builds on the original Qwen-Image model and adds powerful editing capabilities with a focus on consistency, accuracy, and support for multiple subjects."
+      },
+      {
+        "question": "How is it different from Qwen-Image-Edit-2509 or other editors?",
+        "answer": "Compared to v2509, version 2511 delivers much stronger multi-person consistency (fewer identity swaps), integrated community style (LoRA) support, and better handling of product or industrial edits. It also shows improved geometric reasoning for structured edits."
+      },
+      {
+        "question": "Can it remove or add people in a photo without errors?",
+        "answer": "Yes. The model is trained to edit group images carefully. For example, you can add a person to the left of the frame or remove someone, and it will adjust background and shadows accordingly while keeping everyone else intact."
+      },
+      {
+        "question": "Does Qwen Image Edit (2511) support text editing in images?",
+        "answer": "Absolutely. You can include text instructions like \"replace the sign text with 'Open 24/7'\" in Chinese or English, and the model will render the new text with correct font style and alignment, often without spelling mistakes."
+      },
+      {
+        "question": "What built-in styles or filters does it have?",
+        "answer": "It comes with popular community LoRA filters embedded. This means you can invoke styles (like specific lighting effects or artistic looks) directly by name or prompt without extra setup, expanding creative possibilities out-of-the-box."
+      },
+      {
+        "question": "Is it suitable for product design or advertising?",
+        "answer": "Yes. Its enhanced structural awareness makes it ideal for product visuals and design mockups. For instance, marketers can update packaging or backgrounds while the model maintains straight edges, reflections, and labels accurately."
+      },
+      {
+        "question": "How can I get the best results?",
+        "answer": "Use clear, natural prompts and constrain edits one step at a time. Provide reference images for consistent style or subject identity. For text edits, specify the exact string. If needed, iterate: review the output and tweak the prompt for refinement."
+      },
+      {
+        "question": "Does using Qwen Image Edit (2511) cost more credits?",
+        "answer": "Yes, it is a large 20B model and may consume more compute. On z-image.app it costs approximately double the credits of a standard model, but it often succeeds without retries, saving time and effort."
+      },
+      {
+        "question": "How many input images can I use?",
+        "answer": "You can upload up to 3 images: typically one main image to edit and up to two reference images. These references help guide the edit (for example, to match a style or a specific object) while the main image is modified."
+      },
+      {
+        "question": "Where can I try Qwen Image Edit (2511)?",
+        "answer": "It’s integrated on z-image.app’s playground. Simply select it from the model dropdown. It’s also available for developers via Hugging Face or Alibaba’s API for custom integration."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Elevate Your Image Editing",
+    "description": "Stop fighting glitches in photos. Switch to Qwen Image Edit (2511) for easy, coherent edits that preserve every detail. Try it on z-image.app now!",
+    "button": {
+      "text": "Try Qwen Image Edit 2511 Now"
+    }
+  }
+}

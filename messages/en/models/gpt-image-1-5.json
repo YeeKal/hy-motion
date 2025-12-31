@@ -1,0 +1,243 @@
+{
+    "meta": {
+        "slug": "gpt-image-1-5",
+        "name": "GPT Image 1.5",
+        "description": " Your Vision, Exactly As Pictured",
+        "cover": {
+            "url": "https://cdn.z-image.app/models/gpt-image-1-5/og.webp",
+            "alt": "GPT Image 1.5 is live on z-image.app"
+        }
+    },
+    "seo": {
+        "title": "GPT Image 1.5 Generator - Precise Text & Layout Control | z-image.app",
+        "description": "Create images that exactly match your prompt with GPT Image 1.5. Features perfect typography, consistent character editing, and complex spatial reasoning. Try the new standard in AI control.",
+        "keywords": [
+            "GPT Image 1.5",
+            "AI Typography Generator",
+            "Consistent Character Editing",
+            "Prompt Adherence AI",
+            "Spatial Reasoning Image Model",
+            "AI Infographic Generator",
+            "Production Ready AI Art",
+            "OpenAI Image Model 1.5"
+        ],
+        "ogImage": "https://cdn.z-image.app/models/gpt-image-1-5/og.webp",
+        "creator": "@zimageapp",
+        "structuredData": [
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "GPT Image 1.5",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "Web",
+                "description": "A high-precision AI image generation model capable of rendering legible text, following complex spatial instructions, and performing targeted edits without altering subject identity.",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "creator": {
+                    "@type": "Organization",
+                    "name": "z-image.app"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "reviewCount": "2100"
+                }
+            }
+        ]
+    },
+    "hero": {
+        "eyebrow": "Precision Over Chaos",
+        "title": "GPT Image 1.5: Your Vision, Exactly As Pictured.",
+        "tagline": " Stop fighting the algorithm. Experience GPT Image 1.5—the model that edits precisely, spells correctly, and captures your vision without compromise.",
+        "features": [
+            {
+                "icon": "Type",
+                "text": "Legible Typography"
+            },
+            {
+                "icon": "ScanFace",
+                "text": "Identity-Preserving Edits"
+            },
+            {
+                "icon": "Grid3x3",
+                "text": "Complex Spatial Logic"
+            }
+        ]
+    },
+    "imageGallery": {
+        "title": "GPT Image 1.5 Showcase: Precision in Action",
+        "description": "Explore a gallery where text is readable, layouts are respected, and edits are surgical. See what happens when AI truly listens to the prompt.",
+        "images": [
+         
+        ]
+    },
+    "how_to": {
+        "title": "How to Wield GPT Image 1.5",
+        "description": "Mastering this model is about specificity. The more precise your instructions, the better the output.",
+        "steps": [
+            {
+                "icon": "MousePointerClick",
+                "title": "1. Select & Set Context",
+                "description": "Choose 'GPT Image 1.5' from the model dashboard. Unlike abstract art models, this tool thrives on context. Define your goal immediately: 'A marketing poster,' 'A UI mockup,' or 'A character sheet.'",
+                "media": {
+                    "type": "image",
+                    "url": "https://z-image.app/models/gpt-image-1-5/step1-select.webp",
+                    "alt": "Interface showing the selection of GPT Image 1.5 and a context setting dropdown."
+                }
+            },
+            {
+                "icon": "Quote",
+                "title": "2. Prompt with Precision",
+                "description": "If you need text, use double quotes: \"Text Here\". If you need specific placement, use coordinates or clear prepositions: 'A red ball in the top-left corner, a blue cube in the bottom-right.' The model's logic engine will map these strictly.",
+                "media": {
+                    "type": "image",
+                    "url": "https://z-image.app/models/gpt-image-1-5/step2-prompt.webp",
+                    "alt": "A prompt input field showing structured text with specific layout instructions."
+                }
+            },
+            {
+                "icon": "PencilLine",
+                "title": "3. Surgical Editing",
+                "description": "Don't like the background? Use the conversational edit feature. Type 'Change the background to a forest but keep the character exactly the same.' GPT Image 1.5 locks the subject's identity while swapping the environment.",
+                "media": {
+                    "type": "image",
+                    "url": "https://z-image.app/models/gpt-image-1-5/step3-edit.webp",
+                    "alt": "An editing interface showing a character remaining unchanged while the background cycles through different options."
+                }
+            }
+        ]
+    },
+    "useCases": {
+        "title": "Solving the 'Uncontrollable AI' Problem",
+        "description": "Where other models hallucinate, GPT Image 1.5 executes. Here are four scenarios where precision matters more than vibes.",
+        "scenarios": [
+            {
+                "key": "marketing",
+                "shortTitle": "Typographic Ads",
+                "originalTitle": "Zero-Edit Commercial Posters",
+                "tagline": "Finally, an AI that passes a spelling bee.",
+                "description": "Creating a holiday sale flyer usually means generating an image and then switching to Canva to add text. With GPT Image 1.5, you can command a 'luxury perfume bottle on a velvet podium with a gold sign reading \"Midnight Scent\"'. The model integrates the typography physically into the 3D scene, creating reflections and shadows for the letters that 2D overlays can't match.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/gpt-image-1-5/color-car.webp",
+                    "alt": "A colorful car."
+                }
+            },
+            {
+                "key": "ecommerce",
+                "shortTitle": "Virtual Staging",
+                "originalTitle": "Contextual Product Replacement",
+                "tagline": "New campaign, same product photo.",
+                "description": "E-commerce managers can upload a single studio photo of a sneaker and ask the model to 'place this exact shoe on a rugged hiking trail'. Unlike older models that would reimagine the shoe and ruin the brand identity, GPT Image 1.5 identifies the product as a protected object, altering only the lighting and environment to match the new context.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/gpt-image-1-5/traditional-Japanese-kimono.webp",
+                    "alt": "A sneaker seamlessly integrated into a rocky mountain trail environment."
+                }
+            },
+            {
+                "key": "comics",
+                "shortTitle": "Sequential Art",
+                "originalTitle": "Consistent Character Grids",
+                "tagline": "Storytelling without identity crisis.",
+                "description": "Graphic novelists often struggle with characters changing faces between panels. By prompting for a '2x2 grid showing the same detective reacting to evidence: 1. Shock, 2. Anger, 3. Confusion, 4. Determination', users leverage the model's spatial reasoning to generate consistent character sheets in one go, maintaining outfit and facial structure across all frames.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/gpt-image-1-5/anime-girl-on-chair.webp",
+                    "alt": "anime-girl-on-chair"
+                }
+            },
+            {
+                "key": "ui_ux",
+                "shortTitle": "UI Wireframing",
+                "originalTitle": "Strict Layout Mockups",
+                "tagline": "Blueprints that developers can actually use.",
+                "description": "Abstract AI art is useless for web development. GPT Image 1.5 excels at following structural mandates. Requesting a 'SaaS analytics dashboard with a left sidebar, a top search bar, and a center heat map' yields a clean, geometrically accurate interface mock-up. It respects standard UI patterns and text hierarchy, speeding up the 'ideation to wireframe' pipeline.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/gpt-image-1-5/ramen-in-japan.webp",
+                    "alt": "A clean, modern SaaS dashboard mockup with distinct UI elements."
+                }
+            }
+        ]
+    },
+    "features": {
+        "title": "The Precision Toolkit",
+        "description": "Designed for users who need the AI to act as a junior designer, not a chaotic artist.",
+        "items": [
+            {
+                "icon": "Type",
+                "title": "Native Text Rendering",
+                "description": "Capable of generating long strings of legible text. Perfect for logos, signage, and headlines where spelling matters."
+            },
+            {
+                "icon": "ScanFace",
+                "title": "Identity Locking",
+                "description": "The advanced attention mechanism can 'lock' onto a face or object, allowing you to edit the scene around it without distorting the subject's features."
+            },
+            {
+                "icon": "Grid3x3",
+                "title": "Grid & Layout Awareness",
+                "description": "Understands spatial prompts like 'split screen', '6-panel grid', or 'top-left corner', maintaining separation between distinct elements."
+            },
+            {
+                "icon": "Languages",
+                "title": "Natural Language Nuance",
+                "description": "It understands the difference between 'a panda eating a bamboo' and 'a bamboo eating a panda'. Grammatical nuance is reflected in the visual output."
+            },
+            {
+                "icon": "PencilRuler",
+                "title": "Surgical In-Painting",
+                "description": "Perform specific edits (e.g., 'remove the glasses', 'change the tie to red') using natural language without the need for manual masking."
+            },
+            {
+                "icon": "Smartphone",
+                "title": "Device-Agnostic Aspect Ratios",
+                "description": "Generates native aspect ratios for any platform (9:16 for TikTok, 16:9 for YouTube) without cropping or stretching vital details."
+            }
+        ]
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "How does GPT Image 1.5 compare to Nano Banana Pro?",
+                "answer": "It comes down to **Precision vs. Vibe**. Nano Banana Pro is famous for its 'messy realism' and logical 3D textures, making it great for artistic concepts and figurines. GPT Image 1.5, however, wins on **control**. If you need specific text spelled correctly, a strict UI layout, or the ability to edit a background without changing the character's face, GPT Image 1.5 is the superior tool."
+            },
+            {
+                "question": "Can it really spell text correctly?",
+                "answer": "Yes, significantly better than previous generations. By placing text in double quotes (e.g., \"Summer Sale\"), the model treats the letters as structural shapes rather than textures, resulting in high legibility for headings, signs, and logos."
+            },
+            {
+                "question": "Is it suitable for photorealistic images?",
+                "answer": "Absolutely. While it defaults to a clean, commercial look, you can prompt for 'imperfect, grainy 35mm photography' to get realistic results. However, for 'accidental' or 'candid' realism, Nano Banana Pro might still have a slight edge in texture."
+            },
+            {
+                "question": "How does the 'Edit' feature work?",
+                "answer": "GPT Image 1.5 supports conversational editing. Once an image is generated, you can simply type a follow-up command like 'Make it snowing' or 'Change the car to red'. The model understands which parts of the image to keep stable and which to alter."
+            },
+            {
+                "question": "What is the best way to prompt for layouts?",
+                "answer": "Be explicit about geometry. Terms like 'split screen', 'knolling', 'isometric view', or describing the scene in layers (foreground, midground, background) work exceptionally well with this model."
+            },
+            {
+                "question": "Does it support reference images?",
+                "answer": "Yes. You can upload an image to use as a style reference or a composition guide. This is particularly powerful when combined with text prompts to strictly control the output."
+            },
+            {
+                "question": "Why is it called '1.5'?",
+                "answer": "It represents a significant mid-cycle architecture update to the core engine, bridging the gap between standard diffusion and the upcoming next-gen video models, specifically focusing on prompt understanding and text capabilities."
+            },
+            {
+                "question": "Can I use it for logo design?",
+                "answer": "Yes. Because it understands negative space and text, it is currently one of the best AI models for generating vector-style logos and mascots that require clean lines and specific brand names."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Stop Fighting the Algorithm",
+        "description": "Switch to GPT Image 1.5 for images that actually match your prompt, text that reads correctly, and edits that respect your subject.",
+        "button": {
+            "text": "Start Creating with Precision"
+        }
+    }
+}

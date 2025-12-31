@@ -1,0 +1,242 @@
+{
+    "meta": {
+        "slug": "qwen-image-layered",
+        "name": "Qwen Image Layered",
+        "description": "Photo editing AI that decomposes images into layers for precise, non-destructive edits.",
+        "cover": {
+            "url": "https://cdn.z-image.app/models/qwen-image-layered/qwen-og.webp",
+            "alt": "Illustration of an image separated into semi-transparent layers representing Qwen-Image-Layered's output."
+        }
+    },
+    "seo": {
+        "title": "Qwen-Image-Layered AI Editor - Layer-Based Photo Editing | z-image.app",
+        "description": "Experience Qwen-Image-Layered: an AI that decomposes photos into RGBA layers for ultimate edit control. Change text, swap objects, or remove clutter effortlessly on separate layers - all in one generation.",
+        "keywords": [
+            "Qwen-Image-Layered",
+            "AI Photo Editor",
+            "Layered Image Editing",
+            "Non-Destructive Editing",
+            "Image Segmentation AI",
+            "Object Removal AI",
+            "AI Photoshop",
+            "Multi-layer Decomposition"
+        ],
+        "ogImage": "https://cdn.z-image.app/models/qwen-image-layered/qwen-og.webp",
+        "creator": "@z-image.app",
+        "structuredData": [
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "Qwen-Image-Layered",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "Web",
+                "description": "An AI-powered image editing tool that decomposes a photo into multiple layers (RGBA) for precise, independent edits of objects, text, and backgrounds.",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "creator": {
+                    "@type": "Organization",
+                    "name": "z-image.app"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "reviewCount": "1200"
+                }
+            }
+        ]
+    },
+    "hero": {
+        "eyebrow": "Faster Than Manual Masking",
+        "title": "Qwen Image Layered: Decompose and Edit with AI",
+        "tagline": "Split images into meaningful layers and edit each part independently. Change colors, move objects, or update text without touching the rest of the scene.",
+        "features": [
+            {
+                "icon": "Layers",
+                "text": "Photoshop-Like Layer Decomposition"
+            },
+            {
+                "icon": "Pen",
+                "text": "Isolated Element Editing"
+            },
+            {
+                "icon": "SlidersHorizontal",
+                "text": "Precise Adjustment Controls"
+            }
+        ]
+    },
+    "imageGallery": {
+        "title": "Qwen Image Layered Showcase: Edit Every Element",
+        "description": "See how Qwen-Image-Layered splits images into RGBA layers. Each example shows the source on the left and a single-layer edit on the right—like recoloring a background, swapping a subject, or removing an object while the rest remains unchanged.",
+        "images": [
+        ]
+    },
+    "how_to": {
+        "title": "How to Use Qwen Image Layered",
+        "description": "Edit any photo layer-by-layer in three easy steps.",
+        "steps": [
+            {
+                "icon": "MousePointerClick",
+                "title": "1. Select Qwen-Image-Layered",
+                "description": "Choose 'Qwen-Image-Layered' from the model dropdown to enable layered editing mode.",
+                "media": {
+                    "type": "image",
+                    "url": "https://cdn.z-image.app/models/qwen-image-layered/step1-select.webp",
+                    "alt": "Screenshot showing the model selector with 'Qwen-Image-Layered' chosen."
+                }
+            },
+            {
+                "icon": "Upload",
+                "title": "2. Upload Image & Adjust Settings",
+                "description": "Upload your photo and set the number of layers to generate (e.g., background, foreground, text). You can also provide a short caption (optional) or leave it blank.",
+                "media": {
+                    "type": "image",
+                    "url": "https://cdn.z-image.app/models/qwen-image-layered/step2-upload.webp",
+                    "alt": "Interface screenshot of uploading an image and selecting number of layers to produce."
+                }
+            },
+            {
+                "icon": "Zap",
+                "title": "3. Generate & Edit Layers",
+                "description": "Click 'Generate'. Qwen will output each layer separately. Use the layer tools to recolor, move, or delete elements, then apply the changes to see the final composed image.",
+                "media": {
+                    "type": "image",
+                    "url": "https://cdn.z-image.app/models/qwen-image-layered/step3-edit.webp",
+                    "alt": "Screenshot showing separate layer previews and editing controls being used on a layer."
+                }
+            }
+        ]
+    },
+       "useCases": {
+        "title": "Solve Real Production Pain Points",
+        "description": "Why switch from manual editing? Because Qwen solves the 'Occlusion Problem' that Photoshop and SAM can't touch.",
+        "scenarios": [
+            {
+                "key": "marketing",
+                "shortTitle": "YouTube Thumbnails",
+                "originalTitle": "Subject Shifting Without Cloning",
+                "tagline": "Move the person, keep the background.",
+                "description": "Content creators often generate a perfect image where the subject blocks the text area. In Photoshop, moving the subject leaves a hole that takes 30 mins to fix. Qwen separates the subject and *automatically inpaints the background behind them*, allowing you to slide the character to the left and add text instantly.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/qwen-image-layered/pink-anime-girl.webp",
+                    "alt": "A split-screen showing a subject moved to the side with the original background perfectly intact."
+                }
+            },
+            {
+                "key": "motion",
+                "shortTitle": "2.5D Animation",
+                "originalTitle": "Instant Parallax Assets",
+                "tagline": "Static to Motion in minutes.",
+                "description": "Animators usually spend hours cutting images into depth planes (Fore, Mid, Back) and painting in the missing edges to avoid gaps during camera moves. Qwen generates these full layers with occlusion filled in. You can import them directly into After Effects to create immediate 3D depth and parallax movement.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/qwen-image-layered/sea-anime-girl.webp",
+                    "alt": "An exploded view of a landscape scene ready for After Effects parallax."
+                }
+            },
+            {
+                "key": "product",
+                "shortTitle": "Transparent Materials",
+                "originalTitle": "Glass & Liquid Extraction",
+                "tagline": "Beyond binary masks.",
+                "description": "Tools like 'Segment Anything' (SAM) create hard binary masks, ruining the look of glass, smoke, or veils. Qwen generates true RGBA alpha channels. This means you can extract a transparent perfume bottle or a cocktail glass and place it on a new background, retaining the see-through glass and liquid details.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/qwen-image-layered/green-anime-girl.webp",
+                    "alt": "A whiskey glass extracted from a dark background placed onto a light background seamlessly."
+                }
+            },
+            {
+                "key": "cleanup",
+                "shortTitle": "UI & Text Cleanup",
+                "originalTitle": "De-cluttering Concepts",
+                "tagline": "Delete the text, keep the button.",
+                "description": "When AI generates game UI or posters, it often adds gibberish text over complex textures. Qwen intelligently separates 'Text' onto its own layer. You can simply delete the text layer to reveal the clean button or texture underneath, saving you from tedious clone-stamping and texture rebuilding.",
+                "image": {
+                    "src": "https://cdn.z-image.app/models/qwen-image-layered/cute-anime-girl.webp",
+                    "alt": "A sci-fi control panel with the nonsense text layer lifted off to reveal clean buttons."
+                }
+            }
+        ]
+    },
+    "features": {
+        "title": "The Technical Edge",
+        "description": "Comparing Qwen Image Layered to traditional tools and other AI models.",
+        "items": [
+            {
+                "icon": "PaintBucket",
+                "title": "Occlusion Inpainting",
+                "description": "The killer feature. Unlike SAM, which leaves a black hole when you cut an object, Qwen hallucinates the pixels behind the object, giving you a complete background."
+            },
+            {
+                "icon": "Ghost",
+                "title": "True Alpha Transparency",
+                "description": "Handles soft edges (hair, fur) and semi-transparent objects (glass, water) with high-fidelity alpha channels, not just hard cutouts."
+            },
+            {
+                "icon": "Layers",
+                "title": "Semantic Layering",
+                "description": "It doesn't just look for edges; it understands content. It knows to group the 'Cat' as one layer and the 'Rug' as another, rather than splitting by color."
+            },
+            {
+                "icon": "Timer",
+                "title": "2-Minute Workflow",
+                "description": "Replaces a 30-60 minute expert Photoshop workflow (Select -> Mask -> Refine Edge -> Clone Stamp Background) with a single AI inference."
+            },
+            {
+                "icon": "Type",
+                "title": "Text & Overlay Detection",
+                "description": "Specifically trained to identify and isolate text overlays, making it the ultimate tool for cleaning up or localizing posters and memes."
+            },
+            {
+                "icon": "PackageOpen",
+                "title": "Complete Solution",
+                "description": "No complex VAE or LoRA training required (unlike Flux). It's a standalone model ready to process any image input immediately."
+            }
+        ]
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "How is this different from 'Segment Anything' (SAM)?",
+                "answer": "SAM only creates a mask (a selection shape). It cannot handle transparency (like glass) and it does not fill in the background behind the object. Qwen does both: it gives you transparency and repairs the background."
+            },
+            {
+                "question": "Does it work on real photos or just AI images?",
+                "answer": "It works on both. Whether it's a Midjourney creation or a photo from your camera, Qwen analyzes the pixel data to decompose the scene structurally."
+            },
+            {
+                "question": "Can I use this for professional video editing?",
+                "answer": "Yes. The 'Parallax' use case is very popular. Because it generates a clean background plate behind the foreground, you can pull the layers apart in 3D space without seeing artifacts or holes."
+            },
+            {
+                "question": "What resolution does it support?",
+                "answer": "Currently, it supports standard generation resolutions (up to 1024x1024 native), but we include an upscaler to ensure the final layers are crisp enough for web and video use."
+            },
+            {
+                "question": "How accurate is the 'Inpainting' behind the object?",
+                "answer": "It is context-aware. If you remove a person standing in front of a brick wall, it continues the brick pattern. For highly complex or chaotic backgrounds, minor manual touch-ups might still be needed."
+            },
+            {
+                "question": "Is it better than Photoshop's 'Remove Tool'?",
+                "answer": "It is faster for the specific task of 'Separation'. Photoshop requires you to mask the object first, then use Generative Fill on the background. Qwen does the masking, extraction, and filling all at once."
+            },
+            {
+                "question": "Can I separate specific parts, like just the hat?",
+                "answer": "Qwen generally separates by semantic depth (Fore/Mid/Back). For very specific granular control (e.g., separating a hat from a head), you might need to run the 'Foreground' layer through the tool a second time."
+            },
+            {
+                "question": "Does it cost credits?",
+                "answer": "Yes, generating a layered decomposition consumes credits similar to generating a new image, as it requires significant GPU processing to hallucinate the occluded areas."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Stop Fixing Holes in Photoshop",
+        "description": "Switch to Qwen Image Layered and get fully editable, transparent, and background-repaired assets in seconds.",
+        "button": {
+            "text": "Start Decomposing Now"
+        }
+    }
+}

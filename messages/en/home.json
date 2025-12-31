@@ -1,0 +1,396 @@
+{
+  "seo": {
+    "title": "HY-Motion AI - Text-to-3D Animation Generator | hy-motion.ai",
+    "description": "HY-Motion 1.0 is an AI tool to generate realistic 3D character animations from text. Try free text-to-animation generation for games, VR, film, and marketing applications.",
+    "keywords": "HY-Motion, text-to-3D, 3D animation, AI motion generator, skeleton animation, Tencent HY-Motion, character animation, game animation, VR animation",
+    "ogImage": "https://hy-motion.ai/og-image-motion.webp",
+    "creator": "@hy-motion",
+    "structuredData": [
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "HY-Motion",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web-based",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "850"
+        },
+        "featureList": [
+          "Generate 3D character animations from text prompts",
+          "Physically realistic human motion with weight shifts",
+          "200+ motion styles (combat, dance, sports, etc.)",
+          "One-click retargeting to custom rigs",
+          "Cloud library to save and export animations",
+          "Free online demo with no login required"
+        ]
+      }
+    ]
+  },
+    "hero": {
+    "eyebrow": "🚀 Powered by Tencent HY-Motion 1.0",
+    "titlePrefix": "Animate Characters with HY-Motion",
+    "tagline": "Ditch the expensive mocap suits. Generate realistic, skeleton-based 3D animations directly from text prompts. ",
+    "ctaButton": {
+      "text": "Generate Motion Free",
+      "link": "#playground"
+    },
+    "proButtonLable": "Join Pro Waitlist",
+    "features": [
+      {
+        "icon": "Move3d",
+        "text": "Physics-Based Realism"
+      },
+      {
+        "icon": "Gamepad2",
+        "text": "Game Engine Ready"
+      },
+ {
+        "icon": "RefreshCw",
+        "text": "One-Click Retargeting"
+      }
+    ],
+    "backgroundImage": "https://hy-motion.ai/assets/hero-motion-grid.webp"
+  },
+  "playground": {
+    "imageGenerator": {
+      "quotaLabel": "🎁 Daily quota: {quota} animations left",
+      "turnstileError": "Verification failed. Please try again."
+    },
+    "actionButtons": {
+      "wantUnlimited": "Want Unlimited & Batch Export?",
+      "noCaptcha": "No Captcha?",
+      "reset": "Reset",
+      "random": "Random Prompt",
+      "generating": "Generating animation...",
+      "run": "Generate",
+      "free": "(Free)",
+      "noLoginRequired": "No login needed • Free demo"
+    },
+    "promptInput": {
+      "placeholder": "Describe your animation (e.g. \"Character waves hand then jumps\")",
+      "imageCount": {
+        "one": "1 Animation"
+      },
+      "captcha": {
+        "on": "CAPTCHA: ON",
+        "off": "CAPTCHA: OFF"
+      }
+    },
+    "imageCard": {
+      "generating": "Generating...",
+      "waiting": "Waiting for prompt...",
+      "downloadImage": "Download Animation",
+      "downloadHighRes": "Download High-Res",
+      "downloadFailed": "Download failed"
+    },
+    "resultsGrid": {
+      "prompt": "Prompt:",
+      "generatedImages": "Generated Animations"
+    },
+    "verification": {
+      "title": "Security Verification",
+      "description": "Complete the security check to generate your animation.",
+      "initializing": "Initializing verification...",
+      "upgradeToSkip": "Upgrade to Skip Verification",
+      "signInToSkip": "Sign in to Skip Verification",
+      "cancel": "Cancel"
+    },
+    "pricingModal": {
+      "title": {
+        "loggedIn": "Upgrade for Unlimited 3D Animations",
+        "loggedOut": "Sign in to Get More Animations"
+      },
+      "description": {
+        "loggedIn": "Use HY-Motion freely with limits on the demo. Upgrade to remove limits, get high-res exports, batch processing and priority access.",
+        "loggedOut": "Create an account to save animations and unlock additional daily runs. Stay free to use!"
+      },
+      "plans": {
+        "free": {
+          "title": "Free Demo",
+          "features": [
+            {
+              "icon": "Zap",
+              "text": "5 Animations / day",
+              "highlight": true
+            },
+            {
+              "icon": "Cloud",
+              "text": "Access to basic motion library",
+              "highlight": true
+            },
+            {
+              "icon": "X",
+              "text": "No batch export",
+              "highlight": false
+            },
+            {
+              "icon": "X",
+              "text": "Standard resolution",
+              "highlight": false
+            },
+            {
+              "icon": "X",
+              "text": "Standard queue",
+              "highlight": false
+            }
+          ]
+        },
+        "pro": {
+          "badge": "RECOMMENDED",
+          "title": "Pro (Coming Soon)",
+          "features": [
+            {
+              "icon": "Infinity",
+              "text": "Unlimited Animations",
+              "highlight": false
+            },
+            {
+              "icon": "Unlock",
+              "text": "Priority generation",
+              "highlight": false
+            },
+            {
+              "icon": "Settings",
+              "text": "Batch generation & exports",
+              "highlight": false
+            },
+            {
+              "icon": "Cloud",
+              "text": "High-Res Output",
+              "highlight": false
+            }
+          ],
+          "cta": "Join Waitlist"
+        }
+      },
+      "footer": {
+        "promo": "🎉 Join the Pro waitlist for early access to new features!",
+        "viewPlans": "Learn More - Coming Soon",
+        "guarantee": "Cancel anytime"
+      }
+    }
+  },
+  "features": {
+    "title": "Key Features",
+    "description": "HY-Motion 1.0 brings text-driven animation into the mainstream. Its advanced AI understands complex prompts to produce smooth 3D movements that can be directly used in games, films, and VR.",
+    "items": [
+      {
+        "key": "f1",
+        "emoji": "⚡",
+        "title": "Lightning-Fast Generation",
+        "description": "Generate complete character animations in seconds. HY-Motion’s optimized models run quickly even on standard hardware, enabling rapid iteration without long rendering times."
+      },
+      {
+        "key": "f2",
+        "emoji": "🤖",
+        "title": "Physically Realistic Motion",
+        "description": "Built with billions of parameters and reinforcement learning, HY-Motion ensures natural human movements. Weight shifts, balance and smooth transitions are modeled to eliminate common artifacts like foot sliding."
+      },
+      {
+        "key": "f3",
+        "emoji": "🎞️",
+        "title": "Extensive Action Library",
+        "description": "Access 200+ built-in motion categories from walking and jumping to martial arts and dance. You can even chain actions with multi-step prompts for complex scenes or combat sequences."
+      },
+      {
+        "key": "f4",
+        "emoji": "🔄",
+        "title": "Auto Retargeting & Export",
+        "description": "One-click retargeting maps each animation to any character rig (SMPL skeleton). Export your animations in standard formats (FBX, BVH, GLTF) ready for use in Unity, Unreal, Blender and more."
+      },
+      {
+        "key": "f5",
+        "emoji": "☁️",
+        "title": "Cloud Motion Library",
+        "description": "Save, manage and reuse your animations in the cloud. Build a library of custom motions for future projects without managing local files."
+      },
+      {
+        "key": "f6",
+        "emoji": "🆓",
+        "title": "Free Online Demo",
+        "description": "HY-Motion is fully open-source and free to try. Our web playground requires no login for basic use, making it easy for anyone to start creating 3D animations."
+      }
+    ]
+  },
+  "useCases": {
+    "title": "Real-World Use Cases",
+    "description": "HY-Motion 1.0 empowers creators across industries to animate with ease. See how this tool transforms workflows by automating 3D motion creation.",
+    "scenarios": [
+      {
+        "key": "game-dev",
+        "shortTitle": "Game Development",
+        "originalTitle": "Rapid Character Prototyping",
+        "tagline": "Bring characters to life in minutes",
+        "description": "Game developers can prototype realistic character moves without manual animation. Describe in-game actions (e.g. \"Soldier draws sword and attacks\") and instantly get smooth combat animations. This drastically cuts down development time and costs by avoiding lengthy motion-capture or keyframing.",
+        "images": [
+          {
+            "src": "https://cdn.hy-motion.ai/home/game-dev.webp",
+            "alt": "Game character being animated with AI"
+          }
+        ]
+      },
+      {
+        "key": "film-vfx",
+        "shortTitle": "Film & VFX",
+        "originalTitle": "Cinematic Previsualization",
+        "tagline": "Storyboard scenes on the fly",
+        "description": "Filmmakers and VFX artists can draft complex action sequences quickly. Type scene directions (e.g. \"Hero leaps over car, then rolls\") to generate a rough 3D animation. This speeds up previsualization and helps block scenes before expensive mocap or on-set shooting.",
+        "images": [
+          {
+            "src": "https://cdn.hy-motion.ai/home/film.webp",
+            "alt": "Storyboard scene with 3D character animation"
+          }
+        ]
+      },
+      {
+        "key": "vr-education",
+        "shortTitle": "VR & Training",
+        "originalTitle": "Immersive Training Simulations",
+        "tagline": "Interactive scenarios in VR",
+        "description": "Trainers, educators, and designers can create lifelike avatars for simulation. Generate workout routines, dance lessons or safety drills with simple prompts. The animated 3D models can be dropped into VR/AR environments to make training modules or educational content more engaging.",
+        "images": [
+          {
+            "src": "https://cdn.hy-motion.ai/home/vr.webp",
+            "alt": "Person wearing VR headset interacting with animated character"
+          }
+        ]
+      },
+      {
+        "key": "marketing",
+        "shortTitle": "Marketing & AR",
+        "originalTitle": "Animated Advertising Content",
+        "tagline": "Engage audiences with 3D ads",
+        "description": "Marketers and e-commerce brands can showcase products with dynamic animations. For example, animate a character demonstrating a product feature from a text prompt. This allows creation of eye-catching 3D ads, social media clips or AR filters without the expense of live actors or animators.",
+        "images": [
+          {
+            "src": "https://cdn.hy-motion.ai/home/marketing.webp",
+            "alt": "Animated 3D product demonstration"
+          }
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What is HY-Motion and how does it work?",
+        "answer": "HY-Motion 1.0 is a cutting-edge text-to-3D animation model developed by Tencent. Simply type a description of an action and it generates a corresponding human skeletal animation. Its billion-parameter transformer understands complex prompts (like combat moves or sports actions) and produces smooth, realistic 3D motion."
+      },
+      {
+        "question": "Is hy-motion.ai free to use?",
+        "answer": "Yes! We offer a free online playground demo. You only need an account to try it out. The demo has limited daily runs and a basic output resolution. Our Pro version (coming soon) will remove limits, add high-res exports and priority processing for power users."
+      },
+      {
+        "question": "Do I need to create an account to use it?",
+        "answer": "No login is required for the free demo. You can start generating animations right away. Signing up for a free account will let you save animations and access more runs, but basic use doesn’t need any sign-in."
+      },
+      {
+        "question": "What kind of animations can I create with text?",
+        "answer": "You can generate a wide range of human motions: walking, running, jumping, fighting, dancing, and more. The model knows 200+ action categories (including sports, combat, daily activities) and can chain multiple steps (e.g. \"pick up object, wave, then sit\"). Prompt in plain English or Chinese for best results."
+      },
+      {
+        "question": "How do I use the animations in my projects?",
+        "answer": "After generation, you can download the animation in standard 3D formats (FBX, BVH, GLTF). The service automatically retargets motions to a neutral skeleton, making them easy to import into Unity, Unreal, Blender or other 3D tools. From there you can apply your own character rig."
+      },
+      {
+        "question": "Are the generated motions realistic?",
+        "answer": "Yes. HY-Motion is trained on thousands of hours of motion data and fine-tuned with physics constraints. This means animations have natural weight shifts, no foot sliding, and accurate timing. In tests it produces much more lifelike motion than older demo models."
+      },
+      {
+        "question": "Can I use the animations for commercial projects?",
+        "answer": "Absolutely. HY-Motion 1.0 is released under Tencent’s open-source license (Apache 2.0). You own the animations you create on our platform and can use them in games, films, or products without restrictions."
+      },
+      {
+        "question": "What languages are supported for text prompts?",
+        "answer": "The model is trained on both English and Chinese data, so it handles prompts in either language. You can write simple or complex instructions in Chinese or English, and HY-Motion will generate the corresponding motion sequence."
+      },
+            {
+        "question": "Does it support facial expressions or finger movement?",
+        "answer": "Currently, HY-Motion 1.0 focuses on full-body kinematics (Body Pose). It generates excellent gross motor movements (running, dancing, fighting) but does not yet support detailed facial blendshapes or intricate finger articulation."
+      },
+            {
+        "question": "Can I use the output in Unity or Unreal Engine?",
+        "answer": "Yes. While the raw model outputs academic formats (BVH/SMPL), our platform offers a 'Pro' conversion layer. We automatically retarget the skeleton to match the standard Unity Humanoid or UE5 Mannequin rigs, so you can drag and drop the files into your game engine."
+      }
+    ]
+  },
+  "imagePerformance": {
+    "title": "HY-Motion 1.0 Performance",
+    "description": "High-fidelity animations with enterprise-level efficiency",
+    "metrics": [
+      {
+        "icon": "Zap",
+        "label": "motion data",
+        "value": "3,000 h",
+        "description": "train data",
+        "highlight": true
+      },
+      {
+        "icon": "Cpu",
+        "label": "Model Size",
+        "value": "1B+",
+        "description": "parameters",
+        "highlight": false
+      },
+      {
+        "icon": "MemoryStick",
+        "label": "VRAM Usage",
+        "value": "8-12 GB",
+        "description": "approximate",
+        "highlight": false
+      }
+    ],
+    "ctaText": "Start Animating Now"
+  },
+  "modelTiers": {
+    "title": "HY-Motion Model Family",
+    "description": "From lightning-fast inference to full-featured models. Choose the right version for your workflow.",
+    "label": {
+      "modelLabel": "MODEL",
+      "commingSoon": "Coming Soon"
+    },
+    "items": [
+      {
+        "name": "HY-Motion 1.0 Standard",
+        "icon": "Zap",
+        "badge": "Recommended",
+        "description": "The flagship model trained on 1B+ parameters. Generates high-quality animations in seconds. Ideal for general use and rapid prototyping.",
+        "ctaText": "Try Standard Free",
+        "link": "/#playground",
+        "isPrimary": true,
+        "comingSoon": false
+      },
+      {
+        "name": "HY-Motion Lite",
+        "icon": "Layers",
+        "description": "A lightweight version (0.5B parameters) with faster speed but slightly simplified motions. Great for real-time apps or resource-limited environments.",
+        "ctaText": "Try Lightweight Free",
+        "link": "/#playground",
+        "isPrimary": false,
+        "comingSoon": false
+      }
+    ],
+    "bottomCta": {
+      "title": "Looking Ahead",
+      "description": "We’re working on high-res outputs, advanced editing modes, and more. Join our Pro waitlist to be first in line for new releases.",
+      "buttonText": "Join Pro Waitlist",
+      "link": "/waitlist"
+    }
+  },
+  "cta": {
+    "title": "Ready to Animate?",
+    "description": "Don’t let slow tools stall your creativity. HY-Motion 1.0 turns your ideas into 3D animations in seconds. No installation or login needed – just type and go.",
+    "button": {
+      "text": "Start Animating for Free",
+      "link": "playground"
+    }
+  }
+}

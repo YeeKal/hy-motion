@@ -1,0 +1,110 @@
+{
+    "seo": {
+        "title": "Subscription Plans & Features",
+        "description": "Find Z-Image's pricing details for Free, Basic, and Pro plans. Access powerful AI models and visual artifact generation at competitive rates."
+    },
+    "hero": {
+        "title": "Simple pricing <highlight>Instant creativity</highlight>",
+        "subtitle": "Choose the plan that fits your creative needs. Cancel anytime.\n No hidden fees, just pure Z-Image AI power."
+    },
+    "earlyBirds": {
+        "badge": "LIMITED TIME",
+        "text": "Get <highlight>20% OFF</highlight>! Code:",
+        "copied": "Copied",
+        "endsIn": "Ends in:"
+    },
+    "creditsTable": {
+        "intro": "At Z-Image, our credit system is simple and transparent.\n**Currently, we support Z-Image Turbo, with Z-Image Edit and Base coming soon.**\nWe are also actively working on integrating more models like Nano, Banana, and Flux in the near future.\n\n### Credit Usage\n\n| Model | Status | Cost | Description |\n| :--- | :--- | :--- | :--- |\n| **Z-Image Turbo** | ✅ Available | **1 Credit / Image** | Our flagship model. Sub-second generation with photorealistic quality. |\n| **Z-Image Edit** | 🚧 Coming Soon | TBD | Specialized for in-painting and precise image manipulation. |\n| **Z-Image Base** | 🚧 Coming Soon | TBD | The foundational model, perfect for fine-tuning and developers. |\n| **More Models** | 📅 Planned | TBD | Support for Nano, Banana, Flux, and other community favorites. |\n\nYour credits reset at the beginning of each billing cycle."
+    },
+    "creditsFaq": {
+        "title": "Understanding Your Credits",
+        "table": {
+            "title": "Credit Usage",
+            "model": "Model",
+            "status": "Statue",
+            "cost": "Cost",
+            "description": "Description"
+        },
+        "outOfCredits": {
+            "title": "What if I run out of credits?",
+            "text": "Need more power mid-month? You can easily upgrade your plan at any time. We're also working on options for one-time credit top-ups!"
+        }
+    },
+    "features": {
+        "title": "More Than Just an Image Generator – It's a Creative Suite.",
+        "items": [
+            {
+                "icon": "⚡",
+                "title": "Lightning-Fast Generation",
+                "desc": "Powered by 8-step distillation technology, Z-Image Turbo delivers stunning visuals in sub-seconds, perfect for rapid prototyping."
+            },
+            {
+                "icon": "🌏",
+                "title": "Native Bilingual Mastery",
+                "desc": "Understands Chinese idioms and English prompts with equal precision. No more \"lost in translation\" moments for complex cultural concepts."
+            },
+            {
+                "icon": "️",
+                "title": "Cinematic Photorealism",
+                "desc": "Tuned for authentic skin textures, natural lighting, and film-grain aesthetics. Say goodbye to the \"plastic AI look.\""
+            },
+            {
+                "icon": "",
+                "title": "Consumer Hardware Friendly",
+                "desc": "Optimized 6B parameter architecture runs smoothly on 12GB+ VRAM consumer GPUs, making high-end AI accessible to everyone."
+            },
+            {
+                "icon": "🔄",
+                "title": "Future-Proof Ecosystem",
+                "desc": "Ready for Z-Image Edit (in-painting) and Base (fine-tuning) models. One platform for all your generative needs."
+            },
+            {
+                "icon": "💼",
+                "title": "Commercial Freedom",
+                "desc": "Built on Apache 2.0 open weights. You own your creations with a full commercial license, perfect for professional workflows."
+            }
+        ]
+    },
+    "moreFaq": {
+        "title": "Still Have Questions?",
+        "items": [
+            {
+                "question": "What is Z-Image Turbo and how is it different?",
+                "answer": "Z-Image Turbo is a next-generation text-to-image model developed by the Tongyi team. Its main differentiator is the 'Turbo' technology (distillation), which allows it to generate high-quality images in just 8 steps. This makes it significantly faster than traditional models like SDXL or Flux while maintaining exceptional image fidelity."
+            },
+            {
+                "question": "How are credits used for images?",
+                "answer": "With Z-Image Turbo, generating one image costs exactly <strong>1 credit</strong>. Future models or complex editing tasks may have different credit costs, which will be clearly displayed."
+            },
+            {
+                "question": "Does the model support Chinese prompts?",
+                "answer": "Absolutely. This is one of Z-Image's 'Killer Features'. Unlike Midjourney or Flux which are optimized for English, Z-Image is natively trained on a vast corpus of bilingual data, offering superior understanding of Chinese prompts, idioms, and cultural contexts."
+            },
+            {
+                "question": "Can I use the images I create for commercial purposes?",
+                "answer": "Yes! All images created under our Basic and Pro plans come with a full commercial license, meaning you can use them in marketing, advertising, products, and more. Images created on the Free plan are for personal use only."
+            },
+            {
+                "question": "Why do I see a verification challenge (Turnstile) when generating?",
+                "answer": "Since Z-Image Turbo is extremely fast and popular, we use Cloudflare Turnstile to protect our GPU resources from automated bots and DDoS attacks. This ensures that real human users like you get the fastest possible generation experience."
+            },
+            {
+                "question": "Is there a free trial for paid plans?",
+                "answer": "Our \"Free\" plan is the best way to try out Z-Image Turbo. We do not currently offer a separate trial period for paid plans, but you can get started for free and upgrade whenever you're ready."
+            },
+            {
+                "question": "What happens if I run out of credits?",
+                "answer": "If you use all your credits for the month, you will need to wait for them to refresh on your next billing date. Alternatively, you can upgrade to a higher plan to immediately receive a larger credit allowance."
+            },
+            {
+                "question": "Can I upgrade or downgrade my plan?",
+                "answer": "Yes, you can upgrade your plan at any time to get more credits and access to more powerful models. Downgrades are not yet supported, but you can cancel your current subscription at any time, and the cancellation will take effect at the end of your current billing cycle."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Ready to Create?",
+        "desc": "Don't let slow models kill your inspiration. Z-Image Turbo turns your imagination into photorealistic art in milliseconds. No complex setup, just pure creativity.",
+        "button": "Start Creating for Free"
+    }
+}

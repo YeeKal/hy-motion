@@ -1,0 +1,36 @@
+{
+  "seo": {
+    "title": "Join the HY-Motion Pro Waitlist | Game-Ready AI Animations",
+    "description": "Get early access to HY-Motion Pro. Unlock auto-retargeting to FBX, Unreal Engine & Unity support, cloud asset library, and extended animation duration."
+  },
+  "badge": "Coming Soon",
+  "title": "Turn Raw AI Motion into Game Assets",
+  "description": "Stop struggling with raw BVH files. Join the waitlist for HY-Motion Pro to unlock automated pipelines, commercial licensing, and seamless integration with your favorite 3D engines.",
+  "featuresTitle": "What's coming in Pro?",
+  "formTitle": "Get Early Access",
+  "formSubtitle": "Join the waitlist today and get 20% off your first month when we launch.",
+  "backLabel": "Back to Generator",
+  "loadingLabel": "Loading form...",
+  "features": [
+    {
+      "name": "Auto-Retargeting to FBX",
+      "description": "Instantly convert raw motion data into standard .FBX files compatible with Mixamo, Unreal Engine 5 (Manny/Quinn), and Unity Humanoid.",
+      "icon": "FileOutput"
+    },
+    {
+      "name": "Cloud Asset Library",
+      "description": "Never lose a generation. Save your history, organize animations into project folders, and build a persistent motion repository in the cloud.",
+      "icon": "Database"
+    },
+    {
+      "name": "Extended Duration & Quality",
+      "description": "Unlock the limit. Generate longer, smoother animation sequences with higher framerates and advanced motion smoothing algorithms.",
+      "icon": "Zap"
+    },
+    {
+      "name": "Batch Generation",
+      "description": "Need crowd animations? Generate multiple variations of a prompt in a single click to populate your scenes faster.",
+      "icon": "Layers"
+    }
+  ]
+}

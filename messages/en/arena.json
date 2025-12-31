@@ -1,0 +1,159 @@
+{
+    "seo": {
+        "title": "AI Model Arena: Compare Z-Image, Nano Banana Pro & Flux.2 Side-by-Side",
+        "description": "The ultimate AI image generator battle. Compare speed, quality, and credit cost across Z-Image Turbo, Nano Banana Pro, Flux.2 and all other top ai models. Run up to 4 models simultaneously to find the best tool for your creative workflow.",
+        "structuredData": [
+            {
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                "name": "AI Model Arena - Image Generator Comparison Tool",
+                "applicationCategory": "MultimediaApplication",
+                "operatingSystem": "Any (Web-based)",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": "0",
+                    "priceCurrency": "USD",
+                    "offerCount": "3",
+                    "offers": [
+                        {
+                            "@type": "Offer",
+                            "name": "Free Tier",
+                            "price": "0"
+                        },
+                        {
+                            "@type": "Offer",
+                            "name": "Basic Plan",
+                            "price": "9.90"
+                        },
+                        {
+                            "@type": "Offer",
+                            "name": "Pro Plan",
+                            "price": "29.90"
+                        }
+                    ]
+                },
+                "featureList": [
+                    "Side-by-side comparison of up to 4 AI models",
+                    "Real-time speed and cost analysis",
+                    "Support for Z-Image Turbo, Nano Banana Pro, Flux.2, and SDXL",
+                    "Credit-based system for flexible model selection"
+                ]
+            }
+        ]
+    },
+    "hero": {
+        "badge": "New Feature • Model Arena",
+        "title": "AI Image Model Arena",
+        "tagline": "Battle of the generators. Compare Z-Image Turbo, Nano Banana Pro, and Flux.2 instantly. Visualize speed, quality, and cost side-by-side."
+    },
+    "faq": {
+        "title": "Arena & Credits FAQ",
+        "items": [
+            {
+                "question": "How does the Model Arena work?",
+                "answer": "The Arena allows you to select up to 4 different AI models (like Z-Image Turbo, Flux.2, or Nano Banana Pro) and run the same prompt across all of them simultaneously. This helps you directly compare generation speed, artistic style, and image fidelity to decide which model best fits your needs."
+            },
+            {
+                "question": "How are credits calculated for each comparison?",
+                "answer": "Different models consume different amounts of GPU resources, so their credit costs vary. For example, the highly efficient Z-Image Turbo costs only 1 credit, while heavier models like Nano Banana Pro may cost 30 credits per image. The total cost of a generation is the sum of the credit costs of all selected models."
+            },
+            {
+                "question": "Which models are currently supported?",
+                "answer": "We currently support a curated list of top-tier models including Z-Image Turbo (Default), Nano Banana Pro, Flux.2 (Pro/Dev/Flex), Seedream 4.0, and Lightning SDXL. We are constantly testing and adding new models to the Arena roster."
+            },
+            {
+                "question": "What happens if I run out of credits?",
+                "answer": "To continue using premium models or running multi-model comparisons, you will need to top up your credits. We offer 'Basic' and 'Pro' subscription plans. Upgrading not only refills your credit balance but also grants you priority queue access for faster generations."
+            },
+            {
+                "question": "What is the difference between the Basic and Pro plans?",
+                "answer": "The Basic plan is designed for casual explorers, giving you enough credits to run daily comparisons on standard models. The Pro plan is for power users, offering a much larger credit allowance suitable for high-cost models (like Nano Banana Pro) and heavy batch processing."
+            },
+            {
+                "question": "Can I compare just two models instead of four?",
+                "answer": "Yes, you have full control. You can select anywhere from 1 to 4 models for your battle. Selecting fewer models will consume fewer credits per run."
+            },
+            {
+                "question": "Why is Z-Image Turbo the default model?",
+                "answer": "We feature Z-Image Turbo as the benchmark because of its incredible balance of speed (8 steps) and cost-efficiency (1 credit). It serves as a perfect baseline to see how much 'bang for your buck' you get compared to more expensive models."
+            },
+            {
+                "question": "Do unused credits roll over to the next month?",
+                "answer": "This depends on your specific subscription tier terms. generally, subscription credits refresh monthly. Please check the pricing page for the specific terms regarding credit rollover for Basic and Pro plans."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Ready to Battle?",
+        "description": "Stop guessing which model is best. See the difference for yourself. Select your fighters, enter a prompt, and watch them compete.",
+        "button": {
+            "text": "Enter the Arena",
+            "link": "arena"
+        }
+    },
+    "examples": {
+        "title": "Model Comparison Showcase",
+        "description": "See how different models interpret the same prompt. Z-Image Turbo delivers comparable quality in a fraction of the time.",
+        "promptLabel": "Prompt:"
+    },
+    "playground": {
+        "errorPrompt": "Please enter a prompt",
+        "errorModel": "Please select at least one model",
+        "generating": "Generating...",
+        "generate": "Generate({credits} credits)",
+        "timeout": "Generation timeout(2min)",
+        "failed": "Generation failed",
+        "pollingFailed": "Polling failed"
+    },
+    "promptInput": {
+        "placeholder": "Enter a prompt to compare models...",
+        "chars": "chars"
+    },
+    "resultCard": {
+        "failed": "Generation failed",
+        "download": "Download Image",
+        "downloadHighRes": "Download High Res",
+        "generatedBy": "Generated by {modelName}"
+    },
+    "results": {
+        "promptLabel": "Prompt:"
+    },
+    "modelSelector": {
+        "label": "Compare Models",
+        "placeholder": "Select models...",
+        "remove": "Remove {modelName}",
+        "searchPlaceholder": "Search models...",
+        "noResult": "No model found.",
+        "credit": "{credit} credit"
+    },
+    "pricing": {
+        "titleLoggedIn": "Need More Credits?",
+        "titleLoggedOut": "Login to Start Comparing",
+        "description": "The Model Arena runs multiple AI models simultaneously to compare their efficiency and quality. This requires more computing power and credits.",
+        "free": {
+            "title": "Free Starter",
+            "credits": "10 Free Credits (One-time)",
+            "access": "Access to Z-Image Turbo",
+            "limit": "Limited Arena Runs",
+            "button": "Login to Claim"
+        },
+        "basic": {
+            "title": "Basic",
+            "credits": "800 Fast Credits / mo",
+            "compare": "Compare up to 4 models",
+            "license": "Commercial License",
+            "button": "Upgrade Basic"
+        },
+        "pro": {
+            "title": "Pro",
+            "badge": "BEST VALUE",
+            "credits": "3200 Fast Credits / mo",
+            "priority": "Priority GPU Access",
+            "private": "Private Mode",
+            "button": "Upgrade Pro"
+        },
+        "promo": "🎉 Limited Time: 20% OFF Available",
+        "viewPlans": "View Plans - Starts at $7.90/mo",
+        "footer": "Cancel anytime. Secure payment."
+    }
+}

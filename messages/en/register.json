@@ -1,0 +1,25 @@
+{
+    "title": "Register",
+    "description": "Create an account to access our powerful AI models.",
+    "form": {
+        "title": "Register",
+        "alreadyHaveAccount": "Already have an account?",
+        "loginLink": "Login",
+        "nameLabel": "Name",
+        "namePlaceholder": "Enter your name",
+        "emailLabel": "Email",
+        "emailPlaceholder": "you@example.com",
+        "passwordLabel": "Password",
+        "passwordPlaceholder": "********",
+        "passwordHint": "Password must be at least 8 characters long",
+        "submitButton": "Register",
+        "loadingButton": "Loading...",
+        "successMessage": "Registration successful! You can now log in.",
+        "errors": {
+            "invalidEmail": "Please enter a valid email address",
+            "invalidPassword": "Password must be at least 8 characters long",
+            "registrationFailed": "Registration failed",
+            "genericError": "An error occurred during registration"
+        }
+    }
+}

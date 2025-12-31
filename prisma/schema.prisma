@@ -1,0 +1,154 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url  	    = env("DATABASE_URL")
+}
+
+enum OrderStatus {
+  PENDING
+  PROCESSING
+  SUCCEED
+  FAILED
+}
+
+// Optional: Define enums for better type safety and clarity
+enum SubscriptionTier {
+  FREE
+  BASIC
+  PRO
+  TEAM
+  // Add CUSTOM if you have custom plans
+}
+
+enum SubscriptionStatus {
+  TRIAL
+  ACTIVE
+  CANCELED
+  EXPIRED
+}
+
+enum PaymentChannel {
+  PAYPAL
+  STRIPE
+  SYSTEM
+  CREEM
+}
+
+// Optional: Define transaction types for the history table
+enum CreditTransactionType {
+  MESSAGE_COST
+  MONTHLY_REFILL
+  TOP_UP_PURCHASE
+  ADMIN_ADJUSTMENT
+  INITIAL_FREE_CREDITS // For the default balance
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String?  @unique
+  password  String?
+  name      String?
+  image                 String? // Add this line for the user's profile picture
+  emailVerified         DateTime?          // Add this
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // --- Credit System Fields ---
+  credits             Int              @default(10) // User's current available credits (start with free tier allowance)
+  subscriptionTier    SubscriptionTier @default(FREE) // The current subscription tier (using enum)
+  subscriptionExpires DateTime? // Date when the current subscription period ends (useful for cancellations)
+  lastCreditRefill    DateTime         @default(now()) // Timestamp of the last monthly credit refill (for scheduling refills)
+  subscriptionStatus  SubscriptionStatus          @default(ACTIVE) // active, canceled, expired
+  subscriptionId      String?
+
+  // --- Optional: Credit/Payment History (Highly Recommended) ---
+  creditTransactions CreditTransaction[] // Link to transaction history
+  payments           Payment[]
+
+  accounts  Account[]
+  sessions  Session[]
+}
+
+// Optional: Table to log successful payments (subscriptions and top-ups)
+model Payment {
+  id             String            @id @default(cuid()) // Our internal payment record ID
+  userId         String
+  user           User              @relation(fields: [userId], references: [id], onDelete: Cascade) // Note: User relation
+  amount         Int // Amount paid in cents/lowest currency unit (e.g., 1299 for $12.99)
+  currency       String
+  status         OrderStatus // Status from PayPal (e.g., 'COMPLETED', 'PENDING', 'FAILED')
+  channel        PaymentChannel // e.g., 'paypal'
+  credit         Int               @default(0) // The number of credits added by this payment
+  paypalPayerId  String? // PayPal's unique ID for the user/payer
+  paymentId      String? // The unique ID from the payment gateway (e.g., PayPal Order ID or Capture ID)
+  subscriptionId SubscriptionTier? // Link to the subscription ID if this payment is for a recurring plan
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt // To track status updates
+
+  @@index([userId])
+  @@index([paymentId])
+  @@index([subscriptionId]) // Index for faster lookups by subscription ID
+}
+
+// Optional: Table to log  credit change for auditing and user history
+model CreditTransaction {
+  id              String                @id @default(cuid())
+  userId          String
+  user            User                  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type            CreditTransactionType // Type of transaction (using enum)
+  amount          Int // The number of credits added (positive) or removed (negative)
+  description     String? // Optional description (e.g., "Message with GPT-4o", "Monthly refill")
+  relatedEntityId String? // Optional: Link to the entity that caused this (e.g., Message ID, Payment ID)
+  createdAt       DateTime              @default(now())
+  // @@index([relatedEntityId]) // Add if you frequently look up transactions by related entity
+
+  @@index([userId]) // Index for faster lookups by user
+  @@index([type]) // Index for filtering by transaction type
+}
+
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId]) // Improves performance for lookups based on user ID
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}

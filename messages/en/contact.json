@@ -1,0 +1,33 @@
+{
+    "title": "Contact Us",
+    "description": "Contact the HY-Motion team for support, API inquiries, or partnership opportunities.",
+    "seo": {
+        "title": "Contact HY-Motion AI | Support, API & Enterprise Sales",
+        "description": "Get in touch with the HY-Motion team. We provide support for our text-to-3D motion generator, API access, commercial licensing, and custom model training inquiries."
+    },
+    "header": {
+        "title": "Get in Touch with HY-Motion",
+        "subtitle": "Building the future of procedural animation? Whether you have questions about FBX retargeting, API integration, or enterprise licensing, we're here to help."
+    },
+    "inquiries": {
+        "title": "Support & Sales",
+        "description": "For technical assistance, bug reports, or inquiries about commercial API limits.",
+        "responseData": "Please email us directly or use the form. We aim to respond within 24-48 business hours.",
+        "faqText": "Having trouble with exports? Check our",
+        "faqLink": "Documentation & FAQ"
+    },
+    "form": {
+        "title": "Send Us a Message",
+        "description": "Fill out the form below and our team will get back to you shortly.",
+        "nameLabel": "Your Name",
+        "namePlaceholder": "Alex Animator",
+        "emailLabel": "Your Email",
+        "emailPlaceholder": "alex@studio.com",
+        "subjectLabel": "Subject",
+        "subjectPlaceholder": "API Pricing / Issue with UE5 Export",
+        "messageLabel": "Your Message",
+        "messagePlaceholder": "I'm interested in the commercial license for...",
+        "submitButton": "Send Message",
+        "successMessage": "Thank you! Your message has been sent to our support team."
+    }
+}

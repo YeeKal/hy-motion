@@ -1,0 +1,240 @@
+{
+    "meta": {
+        "slug": "flux-2-flex",
+        "name": "Flux.2 Flex",
+        "description": "Balance speed and quality on demand.",
+        "cover": {
+            "url": "https://cdn.z-image.app/models/og/flux-2-flex.webp",
+            "alt": "A split composition showing a fast sketch-like draft on the left and a polished detailed render on the right, both from Flux.2 Flex."
+        }
+    },
+    "seo": {
+        "title": "Flux.2 Flex - Adjustable Speed & Quality AI | z-image.app",
+        "description": "Control your AI generation cost and speed with Flux.2 Flex. Adjust inference steps from 4 to 50. The perfect balance of rapid prototyping and high-quality final renders.",
+        "keywords": [
+            "Flux.2 Flex",
+            "Flux Flex vs Schnell",
+            "Adjustable Step AI",
+            "Fast AI Image Generator",
+            "Low Latency Flux",
+            "Prototype to Production AI",
+            "Cost Effective AI Art"
+        ],
+        "ogImage": "https://cdn.z-image.app/models/og/flux-2-flex.webp",
+        "creator": "@yeekal",
+        "structuredData": [
+            {
+                "@context": "https://schema.org",
+                "@type": "SoftwareApplication",
+                "name": "Flux.2 Flex",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "Web",
+                "description": "A versatile AI model by Black Forest Labs that allows users to adjust inference steps (e.g., 4 to 50) to trade off between generation speed/cost and image fidelity.",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD"
+                },
+                "creator": {
+                    "@type": "Organization",
+                    "name": "z-image.app"
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.6",
+                    "reviewCount": "1950"
+                }
+            }
+        ]
+    },
+    "hero": {
+        "eyebrow": "Speed or Quality? You Choose.",
+        "title": "Flux.2 Flex: The First Elastic AI Model",
+        "tagline": "Replaces the rigid 'Schnell' model. Dial down to 4 steps for lightning-fast drafts, or crank it up to 50 steps for final polish. You control the compute.",
+        "features": [
+            {
+                "icon": "Scale",
+                "text": "Adjustable Inference Steps"
+            },
+            {
+                "icon": "Zap",
+                "text": "Draft in <1 Second"
+            },
+            {
+                "icon": "Coins",
+                "text": "Cost Efficient"
+            }
+        ]
+    },
+    "imageGallery": {
+        "title": "Flux.2 Flex: From Draft to Masterpiece",
+        "description": "Explore the spectrum of speed and quality. See examples ranging from rapid 4-step prototypes to polished 50-step renders, demonstrating the model's incredible versatility.",
+        "images": []
+    },
+    "how_to": {
+        "title": "Prototype Fast, Polish Later",
+        "description": "Optimized for workflow efficiency. Save credits on drafts, spend them on finals.",
+        "steps": [
+            {
+                "icon": "MousePointerClick",
+                "title": "1. Select Flux.2 Flex",
+                "description": "Choose the Flex model. Notice the new 'Steps' slider that appears in the UI, specific to this model.",
+                "media": {
+                    "type": "image",
+                    "url": "https://z-image.app/models/flux-2-flex/step1.webp",
+                    "alt": "UI showing the Flux.2 Flex model selected with a step slider visible."
+                }
+            },
+            {
+                "icon": "Gauge",
+                "title": "2. Set Your Speed",
+                "description": "Set to 4-8 steps for rapid idea generation (low credit cost). Set to 30+ steps for high-fidelity details and better lighting.",
+                "media": {
+                    "type": "image",
+                    "url": "https://z-image.app/models/flux-2-flex/step2.webp",
+                    "alt": "Comparison of an image at 4 steps versus 50 steps."
+                }
+            },
+            {
+                "icon": "Sparkles",
+                "title": "3. Refine & Finalize",
+                "description": "Find the perfect composition in draft mode, then lock the seed and increase the steps to generate the final masterpiece.",
+                "media": {
+                    "type": "image",
+                    "url": "https://z-image.app/models/flux-2-flex/step3.webp",
+                    "alt": "The final polished image ready for download."
+                }
+            }
+        ]
+    },
+    "useCases": {
+        "title": "Versatility in Action",
+        "description": "Flux.2 Flex solves the dilemma of 'Fast vs Good' by giving you both options in one tool.",
+        "scenarios": [
+            {
+                "key": "social",
+                "shortTitle": "Social Media",
+                "originalTitle": "Rapid Content Creation",
+                "tagline": "Feed the algorithm instantly.",
+                "description": "Social media managers use Flux.2 Flex at 10-15 steps to generate high-quality visuals for Twitter and Instagram posts. It's fast enough to react to trends in real-time but looks better than standard turbo models.",
+                "image": {
+                    "src": "",
+                    "alt": "A trendy, colorful image for an Instagram story generated in seconds."
+                }
+            },
+            {
+                "key": "ideation",
+                "shortTitle": "Brainstorming",
+                "originalTitle": "Iterative Design Process",
+                "tagline": "Generate 100 ideas, pick 1.",
+                "description": "Concept artists set the model to 4 steps to rapidly generate dozens of compositional sketches. Once they like a layout, they switch to high steps to render the final details, saving massive amounts of waiting time.",
+                "image": {
+                    "src": "",
+                    "alt": "A grid of 9 rapid compositional sketches for a movie poster."
+                }
+            },
+            {
+                "key": "web",
+                "shortTitle": "Blog Visuals",
+                "originalTitle": "SEO Graphics & Thumbnails",
+                "tagline": "Good quality, low cost.",
+                "description": "Bloggers use the mid-range setting (20 steps) to create featured images that look professional but don't burn through their monthly credit allowance. It's the sweet spot for web content.",
+                "image": {
+                    "src": "",
+                    "alt": "A clean, illustrated blog header image about technology."
+                }
+            },
+            {
+                "key": "story",
+                "shortTitle": "Storyboarding",
+                "originalTitle": "Video Production Pre-viz",
+                "tagline": "Visualize scenes instantly.",
+                "description": "Directors use the low-step mode to visualize camera angles and lighting setups for scripts. The speed allows them to storyboard an entire scene during a lunch break.",
+                "image": {
+                    "src": "",
+                    "alt": "A sequence of black and white storyboard frames."
+                }
+            }
+        ]
+    },
+    "features": {
+        "title": "Why Flex is the Smart Choice",
+        "description": "The only model that adapts to your needs, from speed-demon to quality-king.",
+        "items": [
+            {
+                "icon": "SlidersHorizontal",
+                "title": "Adjustable Step Count",
+                "description": "Unique to Flex. Run at 4 steps for 'Schnell-like' speed, or 50 steps for 'Pro-like' quality. You control the compute and the credit cost."
+            },
+            {
+                "icon": "Type",
+                "title": "Solid Typography",
+                "description": "Even at lower steps, Flux.2 Flex retains the core Flux ability to render text. It's perfect for quick memes or presentation slides."
+            },
+            {
+                "icon": "Zap",
+                "title": "Low Latency",
+                "description": "At its lowest settings, Flex generates images in under a second. This 'real-time' feel is transformative for iterative creative sessions."
+            },
+            {
+                "icon": "Coins",
+                "title": "Credit Efficient",
+                "description": "Why pay full price for a draft? Flex allows you to spend fewer credits on iterations and only pay for the final high-step render."
+            },
+            {
+                "icon": "ImagePlus",
+                "title": "Great Composition",
+                "description": "It inherits the 32B parameter knowledge base, so even at low steps, the composition and anatomy remain surprisingly coherent compared to other turbo models."
+            },
+            {
+                "icon": "Wand2",
+                "title": "Guidance Tuning",
+                "description": "Unlike the previous 'Schnell' model which had fixed guidance, Flex allows you to tweak how closely the AI adheres to your prompt."
+            }
+        ]
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "Does Flux.2 Flex replace Flux Schnell?",
+                "answer": "Yes. Flux.2 Flex is the evolution of Schnell. It offers the same high speed capabilities but adds the flexibility to increase quality when needed, making it a more versatile tool."
+            },
+            {
+                "question": "How does the 'Steps' slider affect my cost?",
+                "answer": "On z-image.app, utilizing lower steps (4-10) consumes fewer credits because it uses less GPU time. Higher steps (25-50) cost standard rates. Check the pricing panel for exact details."
+            },
+            {
+                "question": "Is the quality as good as Pro at high steps?",
+                "answer": "It gets very close! While Flux.2 Pro still holds the edge in 4MP resolution and ultimate texture fidelity, Flux.2 Flex at 50 steps is indistinguishable from Pro for most web and social media uses."
+            },
+            {
+                "question": "Can I use Flex for commercial work?",
+                "answer": "Yes, images generated with Flux.2 Flex on our platform come with a commercial license, making it perfect for rapid client work and social media management."
+            },
+            {
+                "question": "Does it support the Multi-Reference feature?",
+                "answer": "Flex supports basic image-to-image, but the advanced Multi-Reference consistency is primarily optimized for the Pro and Dev models. Flex is focused on single-image speed."
+            },
+            {
+                "question": "Why is my text slightly blurry at low steps?",
+                "answer": "At extremely low steps (4-6), the model hasn't had enough iterations to fully 'converge' the fine details of text. Increasing steps to 15-20 usually fixes this immediately."
+            },
+            {
+                "question": "What is the best use case for Flex?",
+                "answer": "It is the best everyday driver. Use it for brainstorming, blog posts, social media, and any task where you need good images fast without burning through your credit allowance."
+            },
+            {
+                "question": "Is it better than SDXL Turbo?",
+                "answer": "In our benchmarks, Flux.2 Flex offers significantly better prompt adherence and text rendering than SDXL Turbo, even at similar speeds."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Start Creating with Flexibility",
+        "description": "Don't get locked into slow models. Use Flux.2 Flex to iterate fast and finish strong.",
+        "button": {
+            "text": "Try Flux.2 Flex Now"
+        }
+    }
+}

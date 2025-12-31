@@ -1,0 +1,15 @@
+<svg width="80" height="80" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+  <title>hy-motion.ai Logo</title>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5182ED" />
+      <stop offset="100%" stop-color="#D56575" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="80" height="80" rx="16" fill="url(#gradient)"/>
+  <text x="40" y="55" font-size="40" text-anchor="middle"
+        font-family="Inter, Arial, sans-serif" fill="white">
+    HY
+  </text>
+
+</svg>
