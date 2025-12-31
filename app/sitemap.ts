@@ -15,26 +15,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: 'weekly',
       priority: 1,
     },
-    {
-      path: '/arena', 
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      path: '/gallery', 
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      path: '/pricing', 
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
-    {
-      path: '/create', 
-      changeFrequency: 'weekly',
-      priority: 0.8,
-    },
+   
     // {
     //   path: '/tools', // 工具列表页
     //   changeFrequency: 'weekly',
@@ -71,18 +52,18 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }
 
     // 4. 遍历动态 Tool 路由
-  const toolMetaConfigs = await getAllToolConfigs(defaultLocale);
-  for (const tool of toolMetaConfigs) {
-    for (const locale of locales) {
-      sitemapEntries.push({
-        // 注意：这里 path 是 '/tools/xxx'
-        url: getUrl(`/models/${tool.slug}`, locale),
-        lastModified: new Date(), // 如果你的 toolConfig 有 updateTime 字段，可以用那个
-        changeFrequency: 'monthly',
-        priority: 0.8,
-      });
-    }
-  }
+  // const toolMetaConfigs = await getAllToolConfigs(defaultLocale);
+  // for (const tool of toolMetaConfigs) {
+  //   for (const locale of locales) {
+  //     sitemapEntries.push({
+  //       // 注意：这里 path 是 '/tools/xxx'
+  //       url: getUrl(`/models/${tool.slug}`, locale),
+  //       lastModified: new Date(), // 如果你的 toolConfig 有 updateTime 字段，可以用那个
+  //       changeFrequency: 'monthly',
+  //       priority: 0.8,
+  //     });
+  //   }
+  // }
 
   return sitemapEntries;
 }
