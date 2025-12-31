@@ -93,7 +93,7 @@ function PricingContent({user}: PricingPageProps) {
     if (plan.id === "FREE") {
       switch(status){
         case "authenticated":
-          router.push("/create");
+          router.push("/playground");
           return;
         case "unauthenticated":
           router.push("/login");
@@ -103,8 +103,6 @@ function PricingContent({user}: PricingPageProps) {
           return;
       }
     }
-
-
 
     if (status === "unauthenticated") {
       // Set callback URL with parameters to persist intent
@@ -291,7 +289,7 @@ function PricingCard({ plan, isYearly, loading, onCheckout }: PricingCardProps) 
         )}
         variant={plan.popular ? "default" : "secondary"}
         onClick={onCheckout}
-        disabled={loading}
+        disabled={loading || true}
       >
         {loading ? (
           <div className="flex items-center justify-center">

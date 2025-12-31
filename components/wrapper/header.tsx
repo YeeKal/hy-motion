@@ -72,16 +72,16 @@ export function Header({ toolMetaConfigs }: HeaderProps) {
     //   href: "/gallery",
     //   icon: <Images className="mr-2 h-4 w-4"></Images>,
     // },
-    // {
-    //   label: t("pricingLabel"),
-    //   href: "/pricing",
-    //   icon: <Radical className="mr-2 h-4 w-4"></Radical>,
-    // },
-    // {
-    //   label: t("loginLabel"),
-    //   href: "/login",
-    //   icon: <User className="mr-2 h-4 w-4"></User>,
-    // },
+    {
+      label: t("pricingLabel"),
+      href: "/pricing",
+      icon: <Radical className="mr-2 h-4 w-4"></Radical>,
+    },
+    {
+      label: t("loginLabel"),
+      href: "/login",
+      icon: <User className="mr-2 h-4 w-4"></User>,
+    },
 
   ];
 

@@ -38,10 +38,10 @@
     "titlePrefix": "Animate Characters with HY-Motion",
     "tagline": "Ditch the expensive mocap suits. Generate realistic, skeleton-based 3D animations directly from text prompts. ",
     "ctaButton": {
-      "text": "Generate Motion Free",
-      "link": "#playground"
+      "text": "Generate Motions",
+      "link": "/playground"
     },
-    "proButtonLable": "Join Pro Waitlist",
+    "proButtonLable": "View Pro Plans",
     "features": [
       {
         "icon": "Move3d",

@@ -1,11 +1,11 @@
 {
     "seo": {
-        "title": "Subscription Plans & Features",
-        "description": "Find Z-Image's pricing details for Free, Basic, and Pro plans. Access powerful AI models and visual artifact generation at competitive rates."
-    },
+      "title": "Pricing & Plans | Hy-Motion AI - Commercial License & Private Mode",
+  "description": "Choose the right plan for your 3D workflow. Start with the Free Trial or upgrade to Creator/Pro for full Commercial Licenses, Private Mode, Fast GPU access, and up to 16,000 monthly credits."
+},
     "hero": {
         "title": "Simple pricing <highlight>Instant creativity</highlight>",
-        "subtitle": "Choose the plan that fits your creative needs. Cancel anytime.\n No hidden fees, just pure Z-Image AI power."
+        "subtitle": "Choose the plan that fits your creative needs. Cancel anytime.\n No hidden fees, just pure HY-Motion AI power."
     },
     "earlyBirds": {
         "badge": "LIMITED TIME",
@@ -14,7 +14,7 @@
         "endsIn": "Ends in:"
     },
     "creditsTable": {
-        "intro": "At Z-Image, our credit system is simple and transparent.\n**Currently, we support Z-Image Turbo, with Z-Image Edit and Base coming soon.**\nWe are also actively working on integrating more models like Nano, Banana, and Flux in the near future.\n\n### Credit Usage\n\n| Model | Status | Cost | Description |\n| :--- | :--- | :--- | :--- |\n| **Z-Image Turbo** | ✅ Available | **1 Credit / Image** | Our flagship model. Sub-second generation with photorealistic quality. |\n| **Z-Image Edit** | 🚧 Coming Soon | TBD | Specialized for in-painting and precise image manipulation. |\n| **Z-Image Base** | 🚧 Coming Soon | TBD | The foundational model, perfect for fine-tuning and developers. |\n| **More Models** | 📅 Planned | TBD | Support for Nano, Banana, Flux, and other community favorites. |\n\nYour credits reset at the beginning of each billing cycle."
+        "intro": "At HY-Motion, our credit system is simple and transparent.\n**Currently, we support HY-Motion-1.0 (1B), HY-Motion-1.0-Lite (0.46B).**\n\n### Credit Usage\n\n| Model | Status | Cost | Description |\n| :--- | :--- | :--- | :--- |\n| **HY-Motion-1.0 (1B)** | ✅ Available | **8 Credits / Image** | Our flagship model. Sub-second generation with photorealistic quality. |\n| **HY-Motion-1.0-Lite (0.46B)** | ✅ Available | **6 Credits / Image** | Faster generation with moderate quality. |\n| **HY-Motion-Base** | 🚧 Coming Soon | TBD | The foundational model, perfect for fine-tuning and developers. |\n| **More Models** | 📅 Planned | TBD | Support for Nano, Banana, Flux, and other community favorites. |\n\nYour credits reset at the beginning of each billing cycle."
     },
     "creditsFaq": {
         "title": "Understanding Your Credits",
@@ -30,81 +30,81 @@
             "text": "Need more power mid-month? You can easily upgrade your plan at any time. We're also working on options for one-time credit top-ups!"
         }
     },
-    "features": {
-        "title": "More Than Just an Image Generator – It's a Creative Suite.",
+  "features": {
+        "title": "Why Upgrade? Unlock the Full Power of AI Motion.",
         "items": [
             {
                 "icon": "⚡",
-                "title": "Lightning-Fast Generation",
-                "desc": "Powered by 8-step distillation technology, Z-Image Turbo delivers stunning visuals in sub-seconds, perfect for rapid prototyping."
+                "title": "Priority GPU Access",
+                "desc": "Skip the queue. Paid plans get dedicated fast-lane GPU access, generating complex 3D motions in seconds, not minutes."
             },
             {
-                "icon": "🌏",
-                "title": "Native Bilingual Mastery",
-                "desc": "Understands Chinese idioms and English prompts with equal precision. No more \"lost in translation\" moments for complex cultural concepts."
-            },
-            {
-                "icon": "️",
-                "title": "Cinematic Photorealism",
-                "desc": "Tuned for authentic skin textures, natural lighting, and film-grain aesthetics. Say goodbye to the \"plastic AI look.\""
-            },
-            {
-                "icon": "",
-                "title": "Consumer Hardware Friendly",
-                "desc": "Optimized 6B parameter architecture runs smoothly on 12GB+ VRAM consumer GPUs, making high-end AI accessible to everyone."
-            },
-            {
-                "icon": "🔄",
-                "title": "Future-Proof Ecosystem",
-                "desc": "Ready for Z-Image Edit (in-painting) and Base (fine-tuning) models. One platform for all your generative needs."
+                "icon": "🔒",
+                "title": "Stealth Mode (Privacy)",
+                "desc": "Keep your ideas secret. Basic and Pro plans include Private Mode, ensuring your prompts and generated assets are hidden from the public gallery."
             },
             {
                 "icon": "💼",
-                "title": "Commercial Freedom",
-                "desc": "Built on Apache 2.0 open weights. You own your creations with a full commercial license, perfect for professional workflows."
+                "title": "Commercial License",
+                "desc": "Own what you create. Gain full intellectual property rights to use your generated FBX files in commercial games, films, and advertisements."
+            },
+            {
+                "icon": "🎮",
+                "title": "Game-Ready FBX Export",
+                "desc": "Download standard .fbx files compatible with Blender, Unity, Unreal Engine, and Maya. No retargeting headaches, just drag and drop."
+            },
+            {
+                "icon": "💎",
+                "title": "High-Fidelity Models",
+                "desc": "Access the full 1B parameter Hunyuan Motion model for smoother, more realistic human movement and reduced jitter."
+            },
+            {
+                "icon": "📈",
+                "title": "Volume & Scalability",
+                "desc": "Need more? Our Pro plan offers massive credit allowances designed for studios and heavy-duty iterative workflows."
             }
         ]
     },
     "moreFaq": {
-        "title": "Still Have Questions?",
+        "title": "Frequently Asked Questions",
         "items": [
             {
-                "question": "What is Z-Image Turbo and how is it different?",
-                "answer": "Z-Image Turbo is a next-generation text-to-image model developed by the Tongyi team. Its main differentiator is the 'Turbo' technology (distillation), which allows it to generate high-quality images in just 8 steps. This makes it significantly faster than traditional models like SDXL or Flux while maintaining exceptional image fidelity."
+                "question": "How do credits work for motion generation?",
+                "answer": "Our system is credit-based. Typically, generating a standard **5-second motion costs 10 credits**. Longer or higher-quality generations may cost more. Your monthly credit allowance resets at the start of each billing cycle."
             },
             {
-                "question": "How are credits used for images?",
-                "answer": "With Z-Image Turbo, generating one image costs exactly <strong>1 credit</strong>. Future models or complex editing tasks may have different credit costs, which will be clearly displayed."
+                "question": "What is the difference between the Free and Paid plans?",
+                "answer": "The **Free plan** is for testing and personal use; assets are public and cannot be used commercially. **Paid plans (Creator & Pro)** unlock the **Commercial License**, **Private Mode** (hidden from gallery), and significantly faster generation speeds."
             },
             {
-                "question": "Does the model support Chinese prompts?",
-                "answer": "Absolutely. This is one of Z-Image's 'Killer Features'. Unlike Midjourney or Flux which are optimized for English, Z-Image is natively trained on a vast corpus of bilingual data, offering superior understanding of Chinese prompts, idioms, and cultural contexts."
+                "question": "Can I use the FBX files in my commercial game?",
+                "answer": "Yes! If you are subscribed to the **Creator (Basic)** or **Pro Studio** plan, you own the assets you generate. You can freely use them in commercial games, VFX projects, or advertisements without paying royalties."
             },
             {
-                "question": "Can I use the images I create for commercial purposes?",
-                "answer": "Yes! All images created under our Basic and Pro plans come with a full commercial license, meaning you can use them in marketing, advertising, products, and more. Images created on the Free plan are for personal use only."
+                "question": "Does unused credit roll over to the next month?",
+                "answer": "Currently, monthly credits do not roll over. They reset on your billing date. However, if you purchase separate 'Top-Up Packs', those credits never expire."
             },
             {
-                "question": "Why do I see a verification challenge (Turnstile) when generating?",
-                "answer": "Since Z-Image Turbo is extremely fast and popular, we use Cloudflare Turnstile to protect our GPU resources from automated bots and DDoS attacks. This ensures that real human users like you get the fastest possible generation experience."
+                "question": "What software are the files compatible with?",
+                "answer": "We export standard `.fbx` animation files. They are compatible with industry-standard tools like **Blender, Unity, Unreal Engine 5, Maya, and Cinema 4D**. The skeletons are optimized for easy retargeting."
             },
             {
-                "question": "Is there a free trial for paid plans?",
-                "answer": "Our \"Free\" plan is the best way to try out Z-Image Turbo. We do not currently offer a separate trial period for paid plans, but you can get started for free and upgrade whenever you're ready."
+                "question": "Can I cancel my subscription anytime?",
+                "answer": "Yes, you can cancel your subscription at any time from your dashboard. You will retain access to your plan features and remaining credits until the end of your current billing period."
             },
             {
-                "question": "What happens if I run out of credits?",
-                "answer": "If you use all your credits for the month, you will need to wait for them to refresh on your next billing date. Alternatively, you can upgrade to a higher plan to immediately receive a larger credit allowance."
+                "question": "Do you offer refunds?",
+                "answer": "We generally do not offer refunds for partial months or used credits due to the high GPU costs involved in generation. However, if you encounter technical issues, please contact support."
             },
             {
-                "question": "Can I upgrade or downgrade my plan?",
-                "answer": "Yes, you can upgrade your plan at any time to get more credits and access to more powerful models. Downgrades are not yet supported, but you can cancel your current subscription at any time, and the cancellation will take effect at the end of your current billing cycle."
+                "question": "What is 'Private Mode'?",
+                "answer": "By default, all generations are displayed in the community gallery to inspire others. **Private Mode** (available on paid plans) ensures your generations are only visible to you, protecting your unique game mechanics or story ideas."
             }
         ]
     },
     "cta": {
-        "title": "Ready to Create?",
-        "desc": "Don't let slow models kill your inspiration. Z-Image Turbo turns your imagination into photorealistic art in milliseconds. No complex setup, just pure creativity.",
-        "button": "Start Creating for Free"
+        "title": "Stop Keyframing. Start Generating.",
+        "desc": "Accelerate your 3D workflow today. Join thousands of animators and developers using Hy-Motion to bring characters to life instantly.",
+        "button": "Choose Your Plan"
     }
 }

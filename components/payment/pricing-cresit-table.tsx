@@ -2,6 +2,7 @@
 import { CheckCircle2, Construction, CalendarClock } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { ImageModels} from "@/lib/image-generator/models"
+import { HY_MOTION_MODELS } from '@/lib/hy-motion/constants';
 import { ModelType } from '@/lib/image-generator/type';
 // 1. Define Types
 type ModelStatus = 'available' | 'coming_soon' | 'planned';
@@ -14,32 +15,14 @@ interface CreditModel {
   description: string;
 }
 
-const creditsData:CreditModel[] = ImageModels.flatMap(m=>(
-    m.composer ? 
-        m.composer.map(mm=>(
-            mm.type == ModelType.TIIToImage?{
-                id:m.id,
-        modelName:`${m.name}(Edit)`,
-        status: m.isAvailable ? "available" : 'coming_soon',
-        cost: `${mm.credits} Credits / Image`,
-        description: m.description
-            }:{
-                id:m.id,
-        modelName:m.name,
-        status: m.isAvailable ? "available" : 'coming_soon',
-        cost: `${m.credits} Credits / Image`,
-        description: m.description
-            }
-            
-                
-        ))
-    :[
+const creditsData:CreditModel[] = HY_MOTION_MODELS.flatMap(m=>(
+[
 
         {
         id:m.id,
         modelName:m.name,
         status: m.isAvailable ? "available" : 'coming_soon',
-        cost: `${m.credits} Credits / Image`,
+        cost: `${m.credit} Credits / Image`,
         description: m.description
     }
 ]
@@ -49,7 +32,7 @@ const finalData = [...creditsData,  {
     modelName: 'More Models',
     status: 'planned',
     cost: 'TBD',
-    description: 'Support for Nano, Banana, Flux, and other community favorites.',
+    description: 'Support for more models',
   },]
 
 // 3. Helper Component for Status Icon/Text

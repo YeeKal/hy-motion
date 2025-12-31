@@ -24,7 +24,7 @@
         "viewAll": "View Benchmarks"
     },
     "header": {
-        "playground-label": "Motion Lab",
+        "playground-label": "Playground",
         "join-waitlist": "Join Pro Waitlist",
         "formula-ocr": "API Docs",
         "pricingLabel": "Pricing",
@@ -162,11 +162,11 @@
         "pricingArena": {
             "title": {
                 "loggedIn": "Upgrade to HY-Motion Pro",
-                "loggedOut": "Sign in to Save Assets"
+                "loggedOut": "Create an Account or Sign In"
             },
             "description": {
-                "loggedIn": "Unlock FBX auto-retargeting and commercial license.",
-                "loggedOut": "Create a free account to generate 5 motions daily."
+                "loggedIn": "Upgrade to Premium to remove limits and accelerate your creativity.",
+                "loggedOut": "Please sign in or create an account to continue"
             },
             "plans": {
                 "free": {
@@ -191,17 +191,17 @@
                     "cta": "Login to Start"
                 },
                 "basic": {
-                    "title": "Creator",
+                    "title": "Basic",
                     "features": [
                         {
                             "icon": "Zap",
-                            "text": "500 Fast Credits / mo",
+                            "text": "400 Fast Credits / mo",
                             "highlight": true
                         },
                         {
                             "icon": "Check",
-                            "text": "FBX Auto-Retargeting",
-                            "highlight": true
+                            "text": "Access to any models",
+                            "highlight": false
                         },
                         {
                             "icon": "Check",
@@ -209,35 +209,35 @@
                             "highlight": false
                         }
                     ],
-                    "cta": "Upgrade Creator"
+                    "cta": "Upgrade Basic"
                 },
                 "pro": {
                     "badge": "BEST VALUE",
-                    "title": "Studio",
+                    "title": "Pro",
                     "features": [
-                        {
+         {
                             "icon": "Rocket",
-                            "text": "2000 Fast Credits / mo",
+                            "text": "1600 Fast Credits / mo",
                             "highlight": true
                         },
                         {
                             "icon": "Infinity",
-                            "text": "Priority Inference Queue",
+                            "text": "Priority GPU Access",
                             "highlight": true
                         },
                         {
-                            "icon": "Database",
-                            "text": "Unlimited Cloud Library",
+                            "icon": "Lock",
+                            "text": "Private Mode",
                             "highlight": true
                         }
                     ],
-                    "cta": "Upgrade Studio"
+                    "cta": "Upgrade Pro"
                 }
             },
             "footer": {
-                "promo": "🚀 Launch Special: Join Waitlist for 50% OFF",
-                "viewPlans": "View Roadmap",
-                "guarantee": "Secure checkout via Stripe."
+                "promo": "🎉 Limited Time: 20% OFF Available",
+                "viewPlans": "View Plans - Starts at $7.90/mo",
+                "guarantee": "Cancel anytime. Secure payment."
             }
         }
     },

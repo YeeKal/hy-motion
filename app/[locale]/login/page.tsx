@@ -1,10 +1,8 @@
 import { getServerSession } from "next-auth";
-import { Link, redirect } from "@/i18n/routing";
+import { redirect } from "@/i18n/routing";
 import Image from "next/image";
-import { LoginForm } from "@/components/auth/login-form";
 import { authOptions } from "@/app/api/auth/auth-config";
 import { callbackLink } from "@/lib/constants";
-import { DEFAULT_CREDITS } from "@/lib/constants";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "@/i18n/get-messages";
 import { Locale } from "@/i18n/config";
@@ -21,7 +19,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 }
 
 export default async function LoginPage({ params }: { params: Promise<{ locale: Locale }> }) {
-    redirect({ href: '/', locale: 'en' });
   const session = await getServerSession(authOptions);
   const { locale } = await params;
     if (session) {
@@ -41,7 +38,7 @@ export default async function LoginPage({ params }: { params: Promise<{ locale: 
           {/* 背景图：建议换成你 Z-Image 生成的最酷的一张图 */}
           <div className="absolute inset-0 bg-zinc-900">
             <Image
-              src="https://cdn.z-image.app/z-image/qichuan.webp"
+              src="https://cdn.hy-motion.ai/home/login-motion.webp"
               alt="Z-Image Generation"
               fill
               className="object-cover opacity-60"

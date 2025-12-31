@@ -121,7 +121,7 @@ export default function Hero({ hero }: HeroComponentProps) {
           </Button> */}
 
            <Link
-            href={`/#${PLAYGROUND_SECTION_ID}`}
+            href={`/playground`}
             className="inline-flex  items-center justify-center h-10 sm:h-12  px-4 sm:px-8 text-xs sm:text-base md:text-lg font-medium border border-border hover:bg-pink-100 hover:text-pink-700 bg-primary text-primary-foreground bg-background/50 backdrop-blur-sm rounded-full transition-colors  shadow-sm"
           >
             <Zap className=" w-4 h-4 mr-2" />
@@ -131,7 +131,7 @@ export default function Hero({ hero }: HeroComponentProps) {
           {/* Secondary Button: Link to Waitlist */}
           {/* 3. 使用 Link 组件替代 Router.push，并统一圆角样式为 rounded-full */}
           <Link
-            href="/waitlist"
+            href={"/pricing"}
             className="inline-flex  items-center justify-center h-10 sm:h-12  px-4 sm:px-8 text-xs sm:text-base md:text-lg font-medium border border-border text-foreground hover:bg-pink-100 bg-background/50 backdrop-blur-sm rounded-full transition-colors hover:text-pink-700 shadow-sm"
           >
             <Zap className="text-pink-700 w-4 h-4 mr-2" />

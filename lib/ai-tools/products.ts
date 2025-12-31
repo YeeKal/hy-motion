@@ -13,68 +13,6 @@ import {MAX_DAILY_LIMIT} from "@/lib/constants"
 
 export const SubscriptionTrialCredits = 1000;
 
-export const RECHARGES: RechargePlan[] = isDev()
-  ? [
-    {
-      code: "FREE",
-      name: "Free",
-      buyName: "Free Trial",
-      price: 0,
-      credit: 20,
-      desc: "Access to Basic & Efficient Models",
-      productId: "free",
-    },
-    {
-      code: "BASIC",
-      name: "Basic",
-      buyName: "Basic Plan",
-      price: 9.99,
-      credit: 1000,
-      desc: "Access to Basic, Efficient & Advanced Models",
-      productId: "prod_3YGb7dhCf1fRCCj85Xl9gy",
-    },
-    {
-      code: "PRO",
-      name: "Pro",
-      buyName: "Pro Plan",
-      price: 29.99,
-      credit: 4000,
-      desc: "Full access to all Models",
-      productId: "prod_2vqrFu4a5LWSLu6w7VMpUb",
-      isMostPop: true,
-    },
-  ]
-  : [
-    {
-      code: "FREE",
-      name: "Free",
-      buyName: "Free Trial",
-      price: 0,
-      credit: 20,
-      desc: "Access to Basic & Efficient Models",
-      productId: "free",
-    },
-    {
-      code: "BASIC",
-      name: "Basic",
-      buyName: "Basic Plan",
-      price: 9.99,
-      credit: 1000,
-      desc: "Access to Basic, Efficient & Advanced Models",
-      productId: "prod_18mZkCMw723aJCWX1lEkNu",
-    },
-    {
-      code: "PRO",
-      name: "Pro",
-      buyName: "Pro Plan",
-      price: 29.99,
-      credit: 4000,
-      desc: "Full access to all Models",
-      productId: "prod_JYSaDy1Uf08cbtwb4Gc7P",
-      isMostPop: true,
-    },
-  ];
-
 
 export type PricingCode = {
   code: string;
@@ -117,14 +55,14 @@ export const PricingCodes: PricingCode[] = isDev()
       code: "BASIC",
       name: "Basic",
       price: { monthly: 9.99, yearly: 95.04 },
-      credit: { monthly: 800, yearly: 9600 },
+      credit: { monthly: 400, yearly: 4800 },
       productId: { monthly: "prod_2kXdzPP1XHbmujw7Rhlt9z", yearly: "prod_7aMbMJ6sHHPFBBULyIPEkl" },
     },
     {
       code: "PRO",
       name: "Pro",
       price: { monthly: 29.90, yearly: 287.04 },
-      credit: { monthly: 3200, yearly: 38400 },
+      credit: { monthly: 1600, yearly: 19200 },
       productId: { monthly: "prod_2kXdzPP1XHbmujw7Rhlt9z", yearly: "prod_2kXdzPP1XHbmujw7Rhlt9z" },
     },
   ]
@@ -133,21 +71,21 @@ export const PricingCodes: PricingCode[] = isDev()
       code: "FREE",
       name: "Free",
       price: { monthly: 0, yearly: 0 },
-      credit: { monthly: 10, yearly: 120 },
+      credit: { monthly: 8, yearly: 120 },
       productId: { monthly: "free", yearly: "free" },
     },
     {
       code: "BASIC",
       name: "Basic",
       price: { monthly: 9.99, yearly: 95.04 },
-      credit: { monthly: 800, yearly: 9600 },
+      credit: { monthly: 400, yearly: 4800 },
       productId: { monthly: "prod_4rAJA1UJS4mHX4JMdCw1mp", yearly: "prod_7iE0GnWdVHKJNCC9BI8K8r" },
     },
     {
       code: "PRO",
       name: "Pro",
       price: { monthly: 29.90, yearly: 287.04 },
-      credit: { monthly: 3200, yearly: 38400 },
+      credit: { monthly: 1600, yearly: 19200 },
       productId: { monthly: "prod_5NnbXKSxDYVshiKqfBgDjl", yearly: "prod_4VuKyKmTG2F8LbbX2nypSb" },
     },
   ]
@@ -162,18 +100,13 @@ export const PRICING_PLANS: PricingPlan[] = [
     cta: "Get Started",
 
     features: [
-      "10 Fast Generations(Login Required)",
-      `${MAX_DAILY_LIMIT} Daily Standard generations`,
-      "Access to Z-Image Turbo",
-      "Standard resolution",
+      "8 free credits",
       "Public gallery visibility",
     ],
     missing: [
       "Fast GPU Access",
       "Private Mode",
-      "Commercial License",
-      "Batch Generation (4 images)",
-      "No Watermark",
+      "Commercial License"
     ],
     popular: false,
   },
@@ -184,11 +117,9 @@ export const PRICING_PLANS: PricingPlan[] = [
     description: "For power users and high-volume needs.",
     cta: "Upgrade to Basic",
     features: [
-      "800 Fast Generations / mo",
-      "Batch Generation (4 images)",
+      "400 Fast Generations / mo",
       "Private Mode (Hidden from gallery)",
       "Priority Access",
-      "No Watermark",
       "Commercial License",
     ],
     missing: [
@@ -203,8 +134,7 @@ export const PRICING_PLANS: PricingPlan[] = [
     cta: "Upgrade to Pro",
     features: [
       "Everything in Basic",
-      "3200 Fast Generations / mo",
-      "Batch Generation (4 images)",
+      "1600 Fast Generations / mo",
       "Top Priority GPU Access",
       "Early Access to New Features",
       "Priority Support",

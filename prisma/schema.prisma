@@ -64,7 +64,7 @@ model User {
   updatedAt DateTime @updatedAt
 
   // --- Credit System Fields ---
-  credits             Int              @default(10) // User's current available credits (start with free tier allowance)
+  credits             Int              @default(8) // User's current available credits (start with free tier allowance)
   subscriptionTier    SubscriptionTier @default(FREE) // The current subscription tier (using enum)
   subscriptionExpires DateTime? // Date when the current subscription period ends (useful for cancellations)
   lastCreditRefill    DateTime         @default(now()) // Timestamp of the last monthly credit refill (for scheduling refills)
@@ -77,6 +77,7 @@ model User {
 
   accounts  Account[]
   sessions  Session[]
+  motions Motion[]
 }
 
 // Optional: Table to log successful payments (subscriptions and top-ups)
@@ -151,4 +152,18 @@ model VerificationToken {
   expires    DateTime
 
   @@unique([identifier, token])
+}
+
+model Motion{
+  id           String   @id @default(cuid())
+  requestId String
+  prompt String
+  fbxUrl String
+  modelId       String   
+  duration      Float
+  isPublic      Boolean
+  createdAt       DateTime              @default(now())
+  userId            String
+  user            User                  @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId]) // Improves performance for lookups based on user ID
 }

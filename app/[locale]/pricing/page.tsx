@@ -1,11 +1,11 @@
 import PricingCards from "@/components/payment/pricing-page";
-import { Link, redirect } from "@/i18n/routing";
+import { Link } from "@/i18n/routing";
 import { EarlyBirdBanner } from "@/components/payment/early-bird-banner";
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/app/api/auth/auth-config"
 import { getMessages } from "@/i18n/get-messages";
 
-import { NextIntlClientProvider, useTranslations } from "next-intl";
+import { NextIntlClientProvider } from "next-intl";
 import { Locale } from "@/i18n/config";
 import CreditUsageTable from "@/components/payment/pricing-cresit-table"
 import {PricingHero} from "@/components/payment/hero"
@@ -21,7 +21,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: L
 }
 
 export default async function PricingPage({ params }: { params: Promise<{ locale: Locale }> }) {
-    redirect({ href: '/', locale: 'en' });
 
     const { locale } = await params;
     const m = await getMessages(locale, "pricing");

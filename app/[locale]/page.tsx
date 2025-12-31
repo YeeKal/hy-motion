@@ -34,7 +34,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         ))}
         <Hero hero={homeData.hero} />
 
-        <PlaygroundDemo />
+        {/* <PlaygroundDemo /> */}
         <MotionGallery />
 
         {/* 4. 激发欲望 (Desire/Visual Proof) - 展示模型不仅快，画质还很好 */}

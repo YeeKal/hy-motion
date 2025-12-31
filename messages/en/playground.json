@@ -1,0 +1,53 @@
+{
+    "seo": {
+        "title": "Hy-Motion Playground - AI Text-to-3D Motion Generator",
+        "description": "Generate game-ready 3D animations from text prompts in seconds. Create, preview, and export high-fidelity human motions directly in your browser with Hunyuan Motion.",
+        "ogImage": "https://your-domain.com/og-image-motion.webp",
+        "structuredData": [
+            {
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                "name": "Hy-Motion AI Playground & Studio",
+                "url": "https://your-domain.com/playground",
+                "description": "An all-in-one online AI motion studio. Create, preview, and export 3D animations  using the Hunyuan Motion model. Turn text into game-ready character movements.",
+                "applicationCategory": "DesignApplication",
+                "operatingSystem": "All modern web browsers with WebGL support",
+                "browserRequirements": "Requires JavaScript and WebGL",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "description": "Free starting credits available for all new users."
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "reviewCount": "1950"
+                },
+                "featureList": [
+                    "State-of-the-Art Motion Model (Hunyuan Motion)",
+                    "Instant Text-to-3D Motion Generation",
+                    "Game-Ready FBX Export (Unity, Unreal, Blender)",
+                    "Advanced Control (Duration, Seed)",
+                    "Generation History & Asset Library"
+                ],
+                "potentialAction": {
+                    "@type": "CreateAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://your-domain.com/playground?prompt={prompt_text}"
+                    },
+                    "name": "Generate 3D Motion",
+                    "result": {
+                        "@type": "3DModel",
+                        "name": "AI Generated 3D Animation (FBX)"
+                    }
+                }
+            }
+        ]
+    },
+    "hero": {
+        "title": "Bring Your Characters to Life, Instantly",
+        "description": "From text to motion. Describe an action, and our AI will generate a production-ready 3D animation."
+    }
+}

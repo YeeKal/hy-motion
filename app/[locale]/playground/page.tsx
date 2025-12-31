@@ -8,16 +8,16 @@ import HyMotionPlayground from '@/components/3d/motion-playground';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: Locale }> }) {
   const { locale } = await params;
-  const m = await getMessages(locale, "create");
-  const ogImageUrl = m.create.seo.ogImage
-    ? m.create.seo.ogImage
+  const m = await getMessages(locale, "playground");
+  const ogImageUrl = m.playground.seo.ogImage
+    ? m.playground.seo.ogImage
     : DEFAULT_OG;
   return {
-    title: m.create.seo.title,
-    description: m.create.seo.description,
+    title: m.playground.seo.title,
+    description: m.playground.seo.description,
     openGraph: {
-      title: m.create.seo.title,
-      description: m.create.seo.description,
+      title: m.playground.seo.title,
+      description: m.playground.seo.description,
       images: [{ url: ogImageUrl}],
       type: 'website',
     },
@@ -28,12 +28,12 @@ export default async function CreatePage({ params }: { params: Promise<{ locale:
   const { locale } = await params
   setRequestLocale(locale);
 
- const m = await getMessages(locale, `create`);
+ const m = await getMessages(locale, `playground`);
   // const t=  useTranslations(`common.toolcards`);
     if (!m) {
     return notFound();
   }
-    const langData = (m as any)[`create`];
+    const langData = (m as any)[`playground`];
        if (!langData) {
     return notFound();
   }

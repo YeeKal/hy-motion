@@ -6,7 +6,7 @@ export const SUPPORT_EMAIL = "yee@hy-motion.ai"
 
 
 export const DEFAULT_OG=  "https://cdn.hy-motion.ai/visual-logo/opengraph.webp"
-export const DEFAULT_CREDITS = 10
+export const DEFAULT_CREDITS = 8
 export const MONTH_IN_MILLISECONDS = 30 * 24 * 60 * 60 * 1000;
 export const itemsPerPage = 28
 export const MaxImageCount = 4
@@ -22,8 +22,8 @@ export const PRO_SKIP_TOKEN= "SKIPPED_VERIFICATION_PRO_USER"
 export const MAX_DAILY_LIMIT = 3; // 每日免费生成上限
 export const STORAGE_KEY = "z-image-guest-usage";
 
-export const callbackLink = "/create"
-export const DefaultCustomSign = "z-image"
+export const callbackLink = "/playground"
+export const DefaultCustomSign = "hy-motion"
 
 export const DEFAULT_PROMPT = "A steampunk airship navigating cloud cities"
 export const ARENA_DEFAULT_PROMPT =   "Cinematic photo, summer vibes. A beautiful Chinese young girl sitting on a wooden beach deck, leaning back comfortably. She has messy blonde hair, sunglasses perched on her head, and soft makeup. She wears a white t-shirt with red graphic text and red retro gym shorts. The fabric of the shirt is light and airy. Beside her is a soft drink cup and colorful beach balls. The background features a blurred sunny beach scene with a distinctive red and white lifeguard station and blue ocean. High contrast lighting, dappled shadows from an umbrella, 8k resolution, photorealistic textures, depth of field."
