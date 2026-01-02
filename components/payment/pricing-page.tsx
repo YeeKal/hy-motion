@@ -289,7 +289,7 @@ function PricingCard({ plan, isYearly, loading, onCheckout }: PricingCardProps) 
         )}
         variant={plan.popular ? "default" : "secondary"}
         onClick={onCheckout}
-        disabled={loading || true}
+        disabled={loading}
       >
         {loading ? (
           <div className="flex items-center justify-center">

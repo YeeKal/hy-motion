@@ -43,12 +43,12 @@ export interface PricingPlan {
 
 
 export const PricingCodes: PricingCode[] = isDev()
-  ? [
+  ?  [
     {
       code: "FREE",
       name: "Free",
-      price: { monthly: 0.00, yearly: 0.00 },
-      credit: { monthly: 10, yearly: 120 },
+      price: { monthly: 0, yearly: 0 },
+      credit: { monthly: 8, yearly: 120 },
       productId: { monthly: "free", yearly: "free" },
     },
     {
@@ -56,14 +56,14 @@ export const PricingCodes: PricingCode[] = isDev()
       name: "Basic",
       price: { monthly: 9.99, yearly: 95.04 },
       credit: { monthly: 400, yearly: 4800 },
-      productId: { monthly: "prod_2kXdzPP1XHbmujw7Rhlt9z", yearly: "prod_7aMbMJ6sHHPFBBULyIPEkl" },
+      productId: { monthly: "prod_2TeKd7OzY7IZ5W0PARm3it", yearly: "prod_5a8ylQJqWFzkzwhwpIWtGr" },
     },
     {
       code: "PRO",
       name: "Pro",
       price: { monthly: 29.90, yearly: 287.04 },
       credit: { monthly: 1600, yearly: 19200 },
-      productId: { monthly: "prod_2kXdzPP1XHbmujw7Rhlt9z", yearly: "prod_2kXdzPP1XHbmujw7Rhlt9z" },
+      productId: { monthly: "prod_4atmErU0moGvsw5O5bUBIM", yearly: "prod_7Dyq8Jd7NaOpibSm1zhr2B" },
     },
   ]
   : [
