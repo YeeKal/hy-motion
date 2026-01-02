@@ -15,6 +15,16 @@ batch replace to .webp
 
 ## TODO
 
+用户痛点收集
+
+- 自动化转换与重定向（Retargeting）
+    - 骨骼绑定（Rigging）
+        预设骨骼支持：直接支持导出适配 Unity Humanoid、Unreal Engine 5 Manny/Quinn、Mixamo 的格式
+    - 重定向（Retargeting）：，让生成的动作能自动适配到用户上传的常见模型（如 Mixamo 骨骼、UE5 Mannequin、VRM 模型）上
+- 非人类模型 human motion
+- 转换为视频
+- 连贯性问题：AI 生成的动作往往是片段式的。如果用户需要“先走路，然后停下，再挥手”，目前的模型可能很难一次性生成流畅的长序列。你可能需要开发“动作融合”功能
+
 - [x] Planning
     - [x] multiple language support
 - [ ] Implementation
@@ -24,7 +34,8 @@ batch replace to .webp
     - [ ] Verify UI responsiveness and aesthetics
     - [x] Verify logic (Model inputs, validation, API integration)
 - [ ] UI Improvements
-    - [ ] nav bar menu  in mobile  
+    - [ ] playground history
+    - [ ] canvas Loop / Play / Pause 控制按钮
 - [ ] Function complete（功能完备性）
     - [ ] contact page submit
 - [ ] Performance: https://pagespeed.web.dev/analysis/https-z-image-app/7gz67k5eoh?form_factor=mobile
@@ -32,14 +43,7 @@ batch replace to .webp
 
 1. prompts
 2. gallery
-3. develop
-    - z image turbo gguf
-    - z image turbo fp8
-    - z-image comfyui
-    - z-image lora
-3. comfy ui
-4. lora 
-5. style prompt: https://github.com/twri/sdxl_prompt_styler/tree/main
+
 
 ## competitors
 

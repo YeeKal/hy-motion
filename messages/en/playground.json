@@ -2,14 +2,14 @@
     "seo": {
         "title": "Hy-Motion Playground - AI Text-to-3D Motion Generator",
         "description": "Generate game-ready 3D animations from text prompts in seconds. Create, preview, and export high-fidelity human motions directly in your browser with Hunyuan Motion.",
-        "ogImage": "https://your-domain.com/og-image-motion.webp",
+        "ogImage": "https://cdn.hy-motion.ai/visual-logo/opengraph.webp",
         "structuredData": [
             {
                 "@context": "https://schema.org",
                 "@type": "WebApplication",
                 "name": "Hy-Motion AI Playground & Studio",
                 "url": "https://your-domain.com/playground",
-                "description": "An all-in-one online AI motion studio. Create, preview, and export 3D animations  using the Hunyuan Motion model. Turn text into game-ready character movements.",
+                "description": "An all-in-one online hy-motion studio. Create, preview, and export 3D animations  using the Hunyuan Motion model. Turn text into game-ready character movements.",
                 "applicationCategory": "DesignApplication",
                 "operatingSystem": "All modern web browsers with WebGL support",
                 "browserRequirements": "Requires JavaScript and WebGL",
@@ -49,5 +49,109 @@
     "hero": {
         "title": "Bring Your Characters to Life, Instantly",
         "description": "From text to motion. Describe an action, and our AI will generate a production-ready 3D animation."
+    },
+    
+  "outputPipeline": {
+    "title": "Output Formats & Pipeline Integration",
+    "description": "Export motions in industry-standard formats and drop them directly into your 3D or game production workflow — no extra cleanup required.",
+    "items": [
+      {
+        "icon": "Download",
+        "title": "Production-Ready Export Formats",
+        "description": "Download motion data as FBX, BVH, or GLTF. Files are clean, lightweight, and compatible with major DCC and game-engine pipelines."
+      },
+      {
+        "icon": "Workflow",
+        "title": "Unity & Unreal Engine Friendly",
+        "description": "Animations import smoothly into Unity Humanoid and UE5 Mannequin rigs, making them ready for prototyping, cutscenes, or gameplay animation."
+      },
+      {
+        "icon": "UserSquare2",
+        "title": "Retarget-Ready Neutral Skeleton",
+        "description": "Motions are generated on a neutral skeleton designed for easy retargeting, so you can map them to your own characters with minimal effort."
+      },
+      {
+        "icon": "FolderSync",
+        "title": "Blender & DCC Tool Support",
+        "description": "Seamlessly open and edit motions in Blender, Maya, and other animation tools to fine-tune keyframes or blend multiple actions."
+      },
+      {
+        "icon": "CloudDownload",
+        "title": "Future: Auto-Retarget & Batch Export",
+        "description": "Our upcoming pipeline tools will support automatic retargeting, multi-character export, and cloud-based motion library management."
+      }
+    ]
+  },
+  "modelAdvantages": {
+    "title": "Why HY-Motion: Model Advantages That Matter",
+    "description": "HY-Motion 1.0 is built to generate realistic, controllable 3D human motion that works in real production environments — not just research demos.",
+    "items": [
+      {
+        "icon": "Activity",
+        "title": "Smooth & Natural Body Dynamics",
+        "description": "The model produces realistic timing, weight shift, and body balance, reducing artifacts like foot sliding or jittery movement."
+      },
+      {
+        "icon": "ListChecks",
+        "title": "Supports Complex & Multi-Step Actions",
+        "description": "Describe chained actions — such as running, jumping, turning, or interacting — and the model generates continuous motion sequences."
+      },
+      {
+        "icon": "Languages",
+        "title": "English & Chinese Prompt Understanding",
+        "description": "Trained on bilingual motion instructions, the model works reliably with natural language prompts in both English and Chinese."
+      },
+      {
+        "icon": "Gauge",
+        "title": "Fast Generation With Two Model Tiers",
+        "description": "Choose between the Lite (Fast) model for quick iteration or the Full (Quality) model when you need higher motion detail and fidelity."
+      },
+      {
+        "icon": "Cpu",
+        "title": "Built for Developers & Creators",
+        "description": "Designed for animation, games, virtual characters, research, and prototyping — not limited to academic or synthetic motion datasets."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "question": "What formats can I download the animations in?",
+        "answer": "You can download generated motions in FBX, BVH, and GLTF formats. These files are compatible with Blender, Unity, Unreal Engine, and most professional 3D tools."
+      },
+      {
+        "question": "Can I use the motions in commercial projects?",
+        "answer": "Yes. Motions generated on our platform can be used in games, films, research, and commercial productions, subject to the model’s open-source license and platform terms."
+      },
+      {
+        "question": "Does HY-Motion support facial expressions or hand animation?",
+        "answer": "HY-Motion 1.0 focuses on full-body skeletal motion. It currently does not generate detailed facial animation or fine-grained finger movement."
+      },
+      {
+        "question": "Will the animations work with my custom character rig?",
+        "answer": "Yes. Motions are generated on a neutral skeleton that can be retargeted to custom rigs. Upcoming Pro features will include automatic retargeting support."
+      },
+      {
+        "question": "Do I need credits to generate animations?",
+        "answer": "Each motion generation consumes credits. Free users receive a limited amount of credits, and additional credits can be unlocked by upgrading to a paid plan."
+      },
+      {
+        "question": "Is there a difference between the Lite and Full models?",
+        "answer": "Yes. The Lite model prioritizes speed and is ideal for quick previews, while the Full model delivers higher-quality motion with more detail and realism."
+      }
+    ]
+  },
+  "creditsUpsell": {
+    "title": "Running Out of Credits?",
+    "description": "Keep creating without interruptions. Upgrade your plan or add more credits to continue generating high-quality motion animations.",
+    "button": {
+      "text": "Upgrade to Pro",
+      "link": "/pricing"
+    },
+    "secondaryButton": {
+      "text": "Get More Credits"
     }
+  }
+
 }

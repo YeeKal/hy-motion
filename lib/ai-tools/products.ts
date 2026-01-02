@@ -79,14 +79,14 @@ export const PricingCodes: PricingCode[] = isDev()
       name: "Basic",
       price: { monthly: 9.99, yearly: 95.04 },
       credit: { monthly: 400, yearly: 4800 },
-      productId: { monthly: "prod_4rAJA1UJS4mHX4JMdCw1mp", yearly: "prod_7iE0GnWdVHKJNCC9BI8K8r" },
+      productId: { monthly: "prod_2TeKd7OzY7IZ5W0PARm3it", yearly: "prod_5a8ylQJqWFzkzwhwpIWtGr" },
     },
     {
       code: "PRO",
       name: "Pro",
       price: { monthly: 29.90, yearly: 287.04 },
       credit: { monthly: 1600, yearly: 19200 },
-      productId: { monthly: "prod_5NnbXKSxDYVshiKqfBgDjl", yearly: "prod_4VuKyKmTG2F8LbbX2nypSb" },
+      productId: { monthly: "prod_4atmErU0moGvsw5O5bUBIM", yearly: "prod_7Dyq8Jd7NaOpibSm1zhr2B" },
     },
   ]
 

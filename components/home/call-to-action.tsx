@@ -33,7 +33,7 @@ export function CTA(cta:CTAProps) {
           {/* The Call to Action Button */}
           <div className="mt-8">
             <Link
-              href={`/#${PLAYGROUND_SECTION_ID}`}
+              href={cta.button.link}
               className="inline-flex items-center justify-center h-14 px-8 text-lg font-medium bg-primary text-primary-foreground hover:bg-primary/90 rounded-md transition-colors shadow-lg"
             >
               {cta.button.text}

@@ -53,7 +53,7 @@
       },
  {
         "icon": "RefreshCw",
-        "text": "One-Click Retargeting"
+        "text": "Instruction Following"
       }
     ],
     "backgroundImage": "https://hy-motion.ai/assets/hero-motion-grid.webp"
@@ -178,7 +178,7 @@
     }
   },
   "features": {
-    "title": "Key Features",
+    "title": "More Than Just Words: Features That Matter",
     "description": "HY-Motion 1.0 brings text-driven animation into the mainstream. Its advanced AI understands complex prompts to produce smooth 3D movements that can be directly used in games, films, and VR.",
     "items": [
       {
@@ -282,43 +282,43 @@
     "items": [
       {
         "question": "What is HY-Motion and how does it work?",
-        "answer": "HY-Motion 1.0 is a cutting-edge text-to-3D animation model developed by Tencent. Simply type a description of an action and it generates a corresponding human skeletal animation. Its billion-parameter transformer understands complex prompts (like combat moves or sports actions) and produces smooth, realistic 3D motion."
+        "answer": "HY-Motion 1.0 is an advanced text-to-3D motion generation model developed by Tencent. Simply type a description of an action and the model generates a corresponding full-body skeletal animation. It uses a billion-parameter transformer trained on diverse motion data to produce smooth, realistic character motion from natural language prompts."
       },
       {
         "question": "Is hy-motion.ai free to use?",
-        "answer": "Yes! We offer a free online playground demo. You only need an account to try it out. The demo has limited daily runs and a basic output resolution. Our Pro version (coming soon) will remove limits, add high-res exports and priority processing for power users."
+        "answer": "Yes! We offer a free online playground demo. You can start generating animations with a free account using limited credits. The demo provides basic output quality and daily credit limits. Upgrade to a paid plan to unlock higher credit allowances, priority access, and higher-resolution exports."
       },
       {
         "question": "Do I need to create an account to use it?",
-        "answer": "No login is required for the free demo. You can start generating animations right away. Signing up for a free account will let you save animations and access more runs, but basic use doesn’t need any sign-in."
+        "answer": "Yes, login is required for the free demo. You can begin generating animations immediately. Creating an account allows you to save and manage your generated motions and access more credits and features."
       },
       {
         "question": "What kind of animations can I create with text?",
-        "answer": "You can generate a wide range of human motions: walking, running, jumping, fighting, dancing, and more. The model knows 200+ action categories (including sports, combat, daily activities) and can chain multiple steps (e.g. \"pick up object, wave, then sit\"). Prompt in plain English or Chinese for best results."
+        "answer": "You can generate a wide range of human motions, including walking, running, jumping, dancing, combat actions, and more. HY-Motion understands over 200 motion categories and can chain multiple actions in sequence, e.g., 'walk forward, wave, then jump.' Prompts can be written in English or Chinese for best results."
       },
       {
         "question": "How do I use the animations in my projects?",
-        "answer": "After generation, you can download the animation in standard 3D formats (FBX, BVH, GLTF). The service automatically retargets motions to a neutral skeleton, making them easy to import into Unity, Unreal, Blender or other 3D tools. From there you can apply your own character rig."
+        "answer": "After generation, animations can be downloaded in standard 3D formats such as FBX, BVH, and GLTF. Our platform also offers automatic retargeting to neutral skeletons or common engine rigs, making import into tools like Unity, Unreal Engine, and Blender seamless."
       },
       {
         "question": "Are the generated motions realistic?",
-        "answer": "Yes. HY-Motion is trained on thousands of hours of motion data and fine-tuned with physics constraints. This means animations have natural weight shifts, no foot sliding, and accurate timing. In tests it produces much more lifelike motion than older demo models."
+        "answer": "Yes. HY-Motion is trained on thousands of hours of motion data and optimized with physical constraints, resulting in animations with natural timing, balanced weight shifts, and minimal artifacts like foot sliding. The output motion quality is significantly improved compared to earlier models."
       },
       {
         "question": "Can I use the animations for commercial projects?",
-        "answer": "Absolutely. HY-Motion 1.0 is released under Tencent’s open-source license (Apache 2.0). You own the animations you create on our platform and can use them in games, films, or products without restrictions."
+        "answer": "Absolutely. HY-Motion 1.0 is released under Tencent’s open-source Apache 2.0 license, allowing you to use, modify, and distribute animations generated on our platform for personal or commercial projects without restriction."
       },
       {
         "question": "What languages are supported for text prompts?",
-        "answer": "The model is trained on both English and Chinese data, so it handles prompts in either language. You can write simple or complex instructions in Chinese or English, and HY-Motion will generate the corresponding motion sequence."
+        "answer": "The model is trained on both English and Chinese text data, allowing it to interpret prompts written in either language. You can describe your desired motion in simple or complex instructions in either language."
       },
-            {
+      {
         "question": "Does it support facial expressions or finger movement?",
-        "answer": "Currently, HY-Motion 1.0 focuses on full-body kinematics (Body Pose). It generates excellent gross motor movements (running, dancing, fighting) but does not yet support detailed facial blendshapes or intricate finger articulation."
+        "answer": "Currently, HY-Motion 1.0 focuses on generating full-body skeletal motion and gross motor movements such as walking, running, dancing, and combat. It does not yet support detailed facial expressions or intricate finger articulation in its generated animations."
       },
-            {
+      {
         "question": "Can I use the output in Unity or Unreal Engine?",
-        "answer": "Yes. While the raw model outputs academic formats (BVH/SMPL), our platform offers a 'Pro' conversion layer. We automatically retarget the skeleton to match the standard Unity Humanoid or UE5 Mannequin rigs, so you can drag and drop the files into your game engine."
+        "answer": "Yes. While the raw HY-Motion outputs standard motion formats, our platform provides a 'Pro' conversion workflow that automatically retargets animations to common engine rigs like Unity Humanoid or Unreal Engine 5 Mannequin. This allows you to use the files directly in game engines with minimal setup."
       }
     ]
   },
@@ -329,7 +329,7 @@
       {
         "icon": "Zap",
         "label": "motion data",
-        "value": "3,000 h",
+        "value": "3,000 H",
         "description": "train data",
         "highlight": true
       },
@@ -338,59 +338,56 @@
         "label": "Model Size",
         "value": "1B+",
         "description": "parameters",
-        "highlight": false
+        "highlight": true
       },
       {
         "icon": "MemoryStick",
         "label": "VRAM Usage",
         "value": "8-12 GB",
         "description": "approximate",
-        "highlight": false
+        "highlight": true
       }
     ],
-    "ctaText": "Start Animating Now"
+     "introItems": [
+  {
+    "icon": "Zap",
+    "title": "Text-Driven 3D Motion",
+    "description": "HY-Motion converts simple natural language prompts into complete skeleton-based 3D character animations, enabling motion generation without manual keyframing."
   },
-  "modelTiers": {
-    "title": "HY-Motion Model Family",
-    "description": "From lightning-fast inference to full-featured models. Choose the right version for your workflow.",
-    "label": {
-      "modelLabel": "MODEL",
-      "commingSoon": "Coming Soon"
-    },
-    "items": [
-      {
-        "name": "HY-Motion 1.0 Standard",
-        "icon": "Zap",
-        "badge": "Recommended",
-        "description": "The flagship model trained on 1B+ parameters. Generates high-quality animations in seconds. Ideal for general use and rapid prototyping.",
-        "ctaText": "Try Standard Free",
-        "link": "/#playground",
-        "isPrimary": true,
-        "comingSoon": false
-      },
-      {
-        "name": "HY-Motion Lite",
-        "icon": "Layers",
-        "description": "A lightweight version (0.5B parameters) with faster speed but slightly simplified motions. Great for real-time apps or resource-limited environments.",
-        "ctaText": "Try Lightweight Free",
-        "link": "/#playground",
-        "isPrimary": false,
-        "comingSoon": false
-      }
-    ],
-    "bottomCta": {
-      "title": "Looking Ahead",
-      "description": "We’re working on high-res outputs, advanced editing modes, and more. Join our Pro waitlist to be first in line for new releases.",
-      "buttonText": "Join Pro Waitlist",
-      "link": "/waitlist"
-    }
+  {
+    "icon": "Cpu",
+    "title": "Billion-Parameter Scale",
+    "description": "Powered by a billion-parameter Diffusion Transformer (DiT) model, HY-Motion achieves high-quality instruction-following and smooth motion synthesis at scale."
+  },
+  {
+    "icon": "Layers",
+    "title": "Extensive Motion Coverage",
+    "description": "Trained on over 3,000 hours of diverse motion data, HY-Motion supports more than 200 motion categories across locomotion, actions, and interactions."
+  },
+  {
+    "icon": "Globe",
+    "title": "Export to Standard Formats",
+    "description": "Generated animations can be exported in standard formats like FBX, BVH, and GLTF, making them compatible with Blender, Unity, Unreal Engine and other 3D pipelines."
+  },
+  {
+    "icon": "BookOpen",
+    "title": "Open-Source and Commercial Ready",
+    "description": "HY-Motion 1.0 is released open-source with commercial use support, allowing developers to deploy locally and integrate into professional workflows."
+  },
+  {
+    "icon": "MessageSquare",
+    "title": "Bilingual Prompt Support",
+    "description": "The model natively understands both English and Chinese text prompts, providing broad language flexibility for global users."
+  }
+],
+    "ctaText": "Start Animating Now"
   },
   "cta": {
     "title": "Ready to Animate?",
     "description": "Don’t let slow tools stall your creativity. HY-Motion 1.0 turns your ideas into 3D animations in seconds. No installation or login needed – just type and go.",
     "button": {
       "text": "Start Animating for Free",
-      "link": "playground"
+      "link": "/playground"
     }
   }
 }

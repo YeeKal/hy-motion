@@ -199,7 +199,7 @@ export default function HyMotionPlayground() {
         {/* 左侧：控制面板 */}
         <div className="lg:col-span-4 space-y-6">
           <div className="space-y-2 text-center lg:text-left">
-            <h1 className="text-3xl font-bold tracking-tight">Hy-Motion Lab</h1>
+            <h1 className="text-3xl font-bold tracking-tight">Hy-Motion Studio</h1>
             <p className="text-muted-foreground text-sm">
               Generate 3D human motion from text using Hunyuan Motion models.
             </p>

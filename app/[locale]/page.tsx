@@ -40,8 +40,6 @@ export default async function HomePage({ params }: { params: Promise<{ locale: L
         {/* 4. 激发欲望 (Desire/Visual Proof) - 展示模型不仅快，画质还很好 */}
         <ScenarioShowcase scenarioShowcase={homeData.useCases} />
 
-        {/* 3. 建立认知与差异化 (Logic & Differentiation) - 解释为什么刚才生成的那么快 */}
-        {/* <ModelComparison data={homeData.modelComparison} /> */}
 
         <ZImagePerformance data={homeData.imagePerformance} />
 
