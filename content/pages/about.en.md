@@ -2,31 +2,31 @@
 title: Democratizing Instant 3D Animation
 is_draft: false
 date: 2025-12-31
-keywords: HY-Motion, Hunyuan Motion, Text to Motion, AI Animation, Game Development, Motion Capture
+keywords: Animotion, Hunyuan Motion, Text to Motion, AI Animation, Game Development, Motion Capture
 cover: /opengraph.png
-seoTitle: About Our Mission & HY-Motion Technology | About hy-motion.ai
-seoDesc: Discover the technology behind hy-motion.ai. Learn how Tencent's 1B parameter DiT model turns text into game-ready character animations without mocap suits.
+seoTitle: About Our Mission & Animotion Technology | About hy-motion.ai
+seoDesc: Discover the technology behind hy-motion.ai. Learn how Tencent's 1B parameter DiT model (HY-Motion 1.0) turns text into game-ready character animations without mocap suits.
 description: Democratizing 3D character animation with the power of Generative AI.
 ---
 
-Welcome to **HY-Motion.ai**, the premier online gateway to experience the next generation of generative 3D animation. We are dedicated to making state-of-the-art motion synthesis accessible to game developers, indie animators, and digital artists—eliminating the need for expensive motion capture suits, studio rentals, or complex manual rigging.
+Welcome to **Animotion**, the premier online gateway to experience the next generation of generative 3D animation. We are dedicated to making state-of-the-art motion synthesis accessible to game developers, indie animators, and digital artists—eliminating the need for expensive motion capture suits, studio rentals, or complex manual rigging.
 
-### 🚀 Powered by HY-Motion 1.0
+### 🚀 Powered by Tencent HY-Motion 1.0
 
 At the core of our platform lies **HY-Motion 1.0**, a groundbreaking open-source model developed by the **Tencent Hunyuan Team**. It represents a significant leap forward in the field of computer vision and kinematics.
 
-Unlike video generation models that output flat pixels, HY-Motion utilizes a massive **1 Billion Parameter Diffusion Transformer (DiT)** architecture to generate **mathematical skeletal data (BVH/SMPL)**. This means the output is true 3D data that can be rotated, retargeted, and applied to any character mesh in your game engine.
+Unlike video generation models that output flat pixels, HY-Motion 1.0 utilizes a massive **1 Billion Parameter Diffusion Transformer (DiT)** architecture to generate **mathematical skeletal data (BVH/SMPL)**. This means the output is true 3D data that can be rotated, retargeted, and applied to any character mesh in your game engine.
 
 #### Key Capabilities of the Model
 
 *   **⚡ Skeleton-Based Generation:** We don't make videos; we make assets. The output is 3D rotational data compatible with standard animation pipelines.
 *   **🧠 Deep Instruction Following:** Thanks to its 1B parameters, the model understands complex, multi-stage prompts (e.g., *"A ninja runs forward, jumps over an obstacle, and lands in a crouch"*).
-*   **🎮 Physics-Based Realism:** Trained on over 3,000 hours of high-quality motion data, HY-Motion minimizes "foot sliding" and maintains realistic weight distribution compared to older generation models.
+*   **🎮 Physics-Based Realism:** Powered by Tencent HY-Motion 1.0, trained on over 3,000 hours of high-quality motion data, Animotion minimizes "foot sliding" and maintains realistic weight distribution compared to older generation models.
 *   **⏱️ Rapid Inference:** Through our optimized cloud infrastructure, generating a complex 10-second animation takes just seconds.
 
-### 💡 Why Use HY-Motion.ai?
+### 💡 Why Use Animotion?
 
-While the HY-Motion model is open-source, running a 1B parameter 3D generation model locally requires enterprise-grade GPUs, complex Python environments, and heavy dependencies. **HY-Motion.ai solves this.**
+While the HY-Motion 1.0 model is open-source, running a 1B parameter 3D generation model locally requires enterprise-grade GPUs, complex Python environments, and heavy dependencies. **Animotion solves this.**
 
 We provide a seamless, cloud-based wrapper that allows you to:
 
@@ -50,7 +50,7 @@ We are currently in our **Beta (MVP)** phase. We are actively building features 
 
 ### ⚖️ Disclaimer & Credits
 
-**HY-Motion.ai** is an independent SaaS platform and is not officially affiliated with Tencent or the Hunyuan Team.
+**Animotion** is an independent SaaS platform and is not officially affiliated with Tencent or the Hunyuan Team.
 
 *   **Model License:** The underlying HY-Motion 1.0 model is used under the **Tencent Hunyuan Community License**.
 *   **Copyright:** You own the rights to the motion data you generate on our platform, subject to applicable laws and the terms of the community license.

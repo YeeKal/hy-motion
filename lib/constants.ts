@@ -1,6 +1,6 @@
 export const DOMAIN_NAME = "hy-motion.ai";
 export const LOGO_URL = "https://cdn.hy-motion.ai/visual-logo/logo.svg"
-export const BRAND_NAME = "HY 3D Motion"
+export const BRAND_NAME = "Animotion"
 export const SUPPORT_EMAIL = "yee@hy-motion.ai" 
 
 

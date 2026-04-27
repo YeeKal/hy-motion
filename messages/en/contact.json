@@ -1,12 +1,12 @@
 {
     "title": "Contact Us",
-    "description": "Contact the HY-Motion team for support, API inquiries, or partnership opportunities.",
+    "description": "Contact the Animotion team for support, API inquiries, or partnership opportunities. Powered by Tencent HY-Motion 1.0 technology.",
     "seo": {
-        "title": "Contact HY-Motion AI | Support, API & Enterprise Sales",
-        "description": "Get in touch with the HY-Motion team. We provide support for our text-to-3D motion generator, API access, commercial licensing, and custom model training inquiries."
+        "title": "Contact Animotion AI | Support, API & Enterprise Sales",
+        "description": "Get in touch with the Animotion team. We provide support for our text-to-3D motion generator, powered by Tencent HY-Motion 1.0. API access, commercial licensing, and custom model training inquiries."
     },
     "header": {
-        "title": "Get in Touch with HY-Motion",
+        "title": "Get in Touch with Animotion",
         "subtitle": "Building the future of procedural animation? Whether you have questions about FBX retargeting, API integration, or enterprise licensing, we're here to help."
     },
     "inquiries": {

@@ -1,15 +1,15 @@
 {
     "seo": {
-        "title": "Hy-Motion Playground - AI Text-to-3D Motion Generator",
+        "title": "Animotion Playground - AI Text-to-3D Motion Generator",
         "description": "Generate game-ready 3D animations from text prompts in seconds. Create, preview, and export high-fidelity human motions directly in your browser with Hunyuan Motion.",
         "ogImage": "https://cdn.hy-motion.ai/visual-logo/opengraph.webp",
         "structuredData": [
             {
                 "@context": "https://schema.org",
                 "@type": "WebApplication",
-                "name": "Hy-Motion AI Playground & Studio",
+                "name": "Animotion AI Playground & Studio",
                 "url": "https://your-domain.com/playground",
-                "description": "An all-in-one online hy-motion studio. Create, preview, and export 3D animations  using the Hunyuan Motion model. Turn text into game-ready character movements.",
+                "description": "An all-in-one online Animotion studio. Create, preview, and export 3D animations  using the Hunyuan Motion model. Turn text into game-ready character movements.",
                 "applicationCategory": "DesignApplication",
                 "operatingSystem": "All modern web browsers with WebGL support",
                 "browserRequirements": "Requires JavaScript and WebGL",
@@ -83,8 +83,8 @@
     ]
   },
   "modelAdvantages": {
-    "title": "Why HY-Motion: Model Advantages That Matter",
-    "description": "HY-Motion 1.0 is built to generate realistic, controllable 3D human motion that works in real production environments — not just research demos.",
+    "title": "Why Animotion: Model Advantages That Matter",
+    "description": "Animotion is powered by Tencent HY-Motion 1.0 technology, built to generate realistic, controllable 3D human motion that works in real production environments — not just research demos.",
     "items": [
       {
         "icon": "Activity",
@@ -125,8 +125,8 @@
         "answer": "Yes. Motions generated on our platform can be used in games, films, research, and commercial productions, subject to the model’s open-source license and platform terms."
       },
       {
-        "question": "Does HY-Motion support facial expressions or hand animation?",
-        "answer": "HY-Motion 1.0 focuses on full-body skeletal motion. It currently does not generate detailed facial animation or fine-grained finger movement."
+        "question": "Does Animotion support facial expressions or hand animation?",
+        "answer": "Animotion focuses on full-body skeletal motion. Powered by Tencent HY-Motion 1.0, it currently does not generate detailed facial animation or fine-grained finger movement."
       },
       {
         "question": "Will the animations work with my custom character rig?",

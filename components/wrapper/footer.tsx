@@ -37,7 +37,7 @@ export default function Footer() {
             width={48}
             height={48}
           />
-          <p className="text-xl font-bold">{DOMAIN_NAME}</p>
+          <p className="text-xl font-bold">{BRAND_NAME}</p>
           <p className="text-muted-foreground">
             {t('tagline')}
           </p>

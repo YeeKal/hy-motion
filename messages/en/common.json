@@ -8,9 +8,9 @@
         "getStarted": "Start Animating"
     },
     "seo": {
-         "title": "HY-Motion AI - Text-to-3D Animation Generator | hy-motion.ai",
-    "description": "HY-Motion 1.0 is an AI tool to generate realistic 3D character animations from text. Try free text-to-animation generation for games, VR, film, and marketing applications.",
-    "keywords": "HY-Motion, text-to-3D, 3D animation, AI motion generator, skeleton animation, Tencent HY-Motion, character animation, game animation, VR animation",
+         "title": "Animotion AI - Text-to-3D Animation Generator | hy-motion.ai",
+    "description": "Animotion is an AI tool to generate realistic 3D character animations from text. Powered by Tencent HY-Motion 1.0 technology. Try free text-to-animation generation for games, VR, film, and marketing applications.",
+    "keywords": "Animotion, text-to-3D, 3D animation, AI motion generator, skeleton animation, Tencent HY-Motion, character animation, game animation, VR animation",
         "ogImage": "https://cdn.hy-motion.ai/visual-logo/opengraph.webp",
         "creator": "@hy-motion"
     },
@@ -56,7 +56,7 @@
                 "title": "SUPPORT",
                 "links": [
                     {
-                        "text": "About HY-Motion",
+                        "text": "About Animotion",
                         "href": "/about"
                     },
                     {
@@ -161,7 +161,7 @@
         },
         "pricingArena": {
             "title": {
-                "loggedIn": "Upgrade to HY-Motion Pro",
+                "loggedIn": "Upgrade to Animotion Pro",
                 "loggedOut": "Create an Account or Sign In"
             },
             "description": {

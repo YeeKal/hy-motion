@@ -1,15 +1,15 @@
 {
   "seo": {
-    "title": "HY-Motion AI - Text-to-3D Animation Generator | hy-motion.ai",
-    "description": "HY-Motion 1.0 is an AI tool to generate realistic 3D character animations from text. Try free text-to-animation generation for games, VR, film, and marketing applications.",
-    "keywords": "HY-Motion, text-to-3D, 3D animation, AI motion generator, skeleton animation, Tencent HY-Motion, character animation, game animation, VR animation",
+    "title": "Animotion AI - Text-to-3D Animation Generator | hy-motion.ai",
+    "description": "Animotion is an AI tool to generate realistic 3D character animations from text. Powered by Tencent HY-Motion 1.0 technology. Try free text-to-animation generation for games, VR, film, and marketing applications.",
+    "keywords": "Animotion, text-to-3D, 3D animation, AI motion generator, skeleton animation, Tencent HY-Motion, character animation, game animation, VR animation",
     "ogImage": "https://hy-motion.ai/og-image-motion.webp",
     "creator": "@hy-motion",
     "structuredData": [
       {
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
-        "name": "HY-Motion",
+        "name": "Animotion",
         "applicationCategory": "MultimediaApplication",
         "operatingSystem": "Web-based",
         "offers": {
@@ -33,10 +33,10 @@
       }
     ]
   },
-    "hero": {
-    "eyebrow": "🚀 Powered by Tencent HY-Motion 1.0",
-    "titlePrefix": "Animate Characters with HY-Motion",
-    "tagline": "Ditch the expensive mocap suits. Generate realistic, skeleton-based 3D animations directly from text prompts. ",
+  "hero": {
+    "eyebrow": "🚀 Powered by Tencent HY-Motion 1.0 Technology",
+    "titlePrefix": "Animate Characters with Animotion",
+    "tagline": "Ditch the expensive mocap suits. Generate realistic, skeleton-based 3D animations directly from text prompts.",
     "ctaButton": {
       "text": "Generate Motions",
       "link": "/playground"
@@ -51,7 +51,7 @@
         "icon": "Gamepad2",
         "text": "Game Engine Ready"
       },
- {
+      {
         "icon": "RefreshCw",
         "text": "Instruction Following"
       }
@@ -108,7 +108,7 @@
         "loggedOut": "Sign in to Get More Animations"
       },
       "description": {
-        "loggedIn": "Use HY-Motion freely with limits on the demo. Upgrade to remove limits, get high-res exports, batch processing and priority access.",
+        "loggedIn": "Use Animotion freely with limits on the demo. Upgrade to remove limits, get high-res exports, batch processing and priority access.",
         "loggedOut": "Create an account to save animations and unlock additional daily runs. Stay free to use!"
       },
       "plans": {
@@ -179,19 +179,25 @@
   },
   "features": {
     "title": "More Than Just Words: Features That Matter",
-    "description": "HY-Motion 1.0 brings text-driven animation into the mainstream. Its advanced AI understands complex prompts to produce smooth 3D movements that can be directly used in games, films, and VR.",
+    "description": "Animotion brings text-driven animation into the mainstream. Powered by Tencent HY-Motion 1.0 technology, its advanced AI understands complex prompts to produce smooth 3D movements that can be directly used in games, films, and VR.",
     "items": [
       {
         "key": "f1",
         "emoji": "⚡",
         "title": "Lightning-Fast Generation",
-        "description": "Generate complete character animations in seconds. HY-Motion’s optimized models run quickly even on standard hardware, enabling rapid iteration without long rendering times."
+        "description": "Generate complete character animations in seconds. Animotion's optimized models run quickly even on standard hardware, enabling rapid iteration without long rendering times."
       },
       {
         "key": "f2",
         "emoji": "🤖",
         "title": "Physically Realistic Motion",
-        "description": "Built with billions of parameters and reinforcement learning, HY-Motion ensures natural human movements. Weight shifts, balance and smooth transitions are modeled to eliminate common artifacts like foot sliding."
+        "description": "Built with billions of parameters and reinforcement learning, Animotion ensures natural human movements. Weight shifts, balance and smooth transitions are modeled to eliminate common artifacts like foot sliding."
+      },
+      {
+        "key": "f2",
+        "emoji": "🤖",
+        "title": "Physically Realistic Motion",
+        "description": "Built with billions of parameters and reinforcement learning, Animotion ensures natural human movements. Weight shifts, balance and smooth transitions are modeled to eliminate common artifacts like foot sliding."
       },
       {
         "key": "f3",
@@ -215,13 +221,13 @@
         "key": "f6",
         "emoji": "🆓",
         "title": "Free Online Demo",
-        "description": "HY-Motion is fully open-source and free to try. Our web playground requires no login for basic use, making it easy for anyone to start creating 3D animations."
+        "description": "Animotion is fully open-source and free to try. Our web playground requires no login for basic use, making it easy for anyone to start creating 3D animations."
       }
     ]
   },
   "useCases": {
     "title": "Real-World Use Cases",
-    "description": "HY-Motion 1.0 empowers creators across industries to animate with ease. See how this tool transforms workflows by automating 3D motion creation.",
+    "description": "Animotion empowers creators across industries to animate with ease. Powered by Tencent HY-Motion 1.0, see how this tool transforms workflows by automating 3D motion creation.",
     "scenarios": [
       {
         "key": "game-dev",
@@ -281,8 +287,8 @@
     "title": "Frequently Asked Questions",
     "items": [
       {
-        "question": "What is HY-Motion and how does it work?",
-        "answer": "HY-Motion 1.0 is an advanced text-to-3D motion generation model developed by Tencent. Simply type a description of an action and the model generates a corresponding full-body skeletal animation. It uses a billion-parameter transformer trained on diverse motion data to produce smooth, realistic character motion from natural language prompts."
+        "question": "What is Animotion and how does it work?",
+        "answer": "Animotion is an advanced text-to-3D motion generation platform powered by Tencent HY-Motion 1.0. Simply type a description of an action and the model generates a corresponding full-body skeletal animation. It uses a billion-parameter transformer trained on diverse motion data to produce smooth, realistic character motion from natural language prompts."
       },
       {
         "question": "Is hy-motion.ai free to use?",
@@ -290,11 +296,11 @@
       },
       {
         "question": "Do I need to create an account to use it?",
-        "answer": "Yes, login is required for the free demo. You can begin generating animations immediately. Creating an account allows you to save and manage your generated motions and access more credits and features."
+        "answer": "No login is required for the free demo. You can begin generating animations immediately. Creating an account allows you to save and manage your generated motions and access more credits and features."
       },
       {
         "question": "What kind of animations can I create with text?",
-        "answer": "You can generate a wide range of human motions, including walking, running, jumping, dancing, combat actions, and more. HY-Motion understands over 200 motion categories and can chain multiple actions in sequence, e.g., 'walk forward, wave, then jump.' Prompts can be written in English or Chinese for best results."
+        "answer": "You can generate a wide range of human motions, including walking, running, jumping, dancing, combat actions, and more. Animotion understands over 200 motion categories and can chain multiple actions in sequence, e.g., 'walk forward, wave, then jump.' Prompts can be written in English or Chinese for best results."
       },
       {
         "question": "How do I use the animations in my projects?",
@@ -302,11 +308,11 @@
       },
       {
         "question": "Are the generated motions realistic?",
-        "answer": "Yes. HY-Motion is trained on thousands of hours of motion data and optimized with physical constraints, resulting in animations with natural timing, balanced weight shifts, and minimal artifacts like foot sliding. The output motion quality is significantly improved compared to earlier models."
+        "answer": "Yes. Powered by Tencent HY-Motion 1.0 technology, Animotion is trained on thousands of hours of motion data and optimized with physical constraints, resulting in animations with natural timing, balanced weight shifts, and minimal artifacts like foot sliding. The output motion quality is significantly improved compared to earlier models."
       },
       {
         "question": "Can I use the animations for commercial projects?",
-        "answer": "Absolutely. HY-Motion 1.0 is released under Tencent’s open-source Apache 2.0 license, allowing you to use, modify, and distribute animations generated on our platform for personal or commercial projects without restriction."
+"answer": "Absolutely. The underlying Tencent HY-Motion 1.0 model is released under open-source Apache 2.0 license, allowing you to use, modify, and distribute animations generated on our platform for personal or commercial projects without restriction."
       },
       {
         "question": "What languages are supported for text prompts?",
@@ -314,17 +320,17 @@
       },
       {
         "question": "Does it support facial expressions or finger movement?",
-        "answer": "Currently, HY-Motion 1.0 focuses on generating full-body skeletal motion and gross motor movements such as walking, running, dancing, and combat. It does not yet support detailed facial expressions or intricate finger articulation in its generated animations."
+        "answer": "Currently, Animotion focuses on generating full-body skeletal motion and gross motor movements such as walking, running, dancing, and combat. It does not yet support detailed facial expressions or intricate finger articulation in its generated animations."
       },
       {
         "question": "Can I use the output in Unity or Unreal Engine?",
-        "answer": "Yes. While the raw HY-Motion outputs standard motion formats, our platform provides a 'Pro' conversion workflow that automatically retargets animations to common engine rigs like Unity Humanoid or Unreal Engine 5 Mannequin. This allows you to use the files directly in game engines with minimal setup."
+        "answer": "Yes. While the underlying Tencent HY-Motion outputs standard motion formats, our platform provides a 'Pro' conversion workflow that automatically retargets animations to common engine rigs like Unity Humanoid or Unreal Engine 5 Mannequin. This allows you to use the files directly in game engines with minimal setup."
       }
     ]
   },
   "imagePerformance": {
-    "title": "HY-Motion 1.0 Performance",
-    "description": "High-fidelity animations with enterprise-level efficiency",
+    "title": "Animotion Performance",
+    "description": "High-fidelity animations with enterprise-level efficiency. Powered by Tencent HY-Motion 1.0 technology.",
     "metrics": [
       {
         "icon": "Zap",
@@ -348,43 +354,43 @@
         "highlight": true
       }
     ],
-     "introItems": [
-  {
-    "icon": "Zap",
-    "title": "Text-Driven 3D Motion",
-    "description": "HY-Motion converts simple natural language prompts into complete skeleton-based 3D character animations, enabling motion generation without manual keyframing."
-  },
-  {
-    "icon": "Cpu",
-    "title": "Billion-Parameter Scale",
-    "description": "Powered by a billion-parameter Diffusion Transformer (DiT) model, HY-Motion achieves high-quality instruction-following and smooth motion synthesis at scale."
-  },
-  {
-    "icon": "Layers",
-    "title": "Extensive Motion Coverage",
-    "description": "Trained on over 3,000 hours of diverse motion data, HY-Motion supports more than 200 motion categories across locomotion, actions, and interactions."
-  },
-  {
-    "icon": "Globe",
-    "title": "Export to Standard Formats",
-    "description": "Generated animations can be exported in standard formats like FBX, BVH, and GLTF, making them compatible with Blender, Unity, Unreal Engine and other 3D pipelines."
-  },
-  {
-    "icon": "BookOpen",
-    "title": "Open-Source and Commercial Ready",
-    "description": "HY-Motion 1.0 is released open-source with commercial use support, allowing developers to deploy locally and integrate into professional workflows."
-  },
-  {
-    "icon": "MessageSquare",
-    "title": "Bilingual Prompt Support",
-    "description": "The model natively understands both English and Chinese text prompts, providing broad language flexibility for global users."
-  }
-],
+    "introItems": [
+      {
+        "icon": "Zap",
+        "title": "Text-Driven 3D Motion",
+        "description": "Animotion converts simple natural language prompts into complete skeleton-based 3D character animations, enabling motion generation without manual keyframing."
+      },
+      {
+        "icon": "Cpu",
+        "title": "Billion-Parameter Scale",
+        "description": "Powered by Tencent HY-Motion 1.0 billion-parameter Diffusion Transformer (DiT) model, Animotion achieves high-quality instruction-following and smooth motion synthesis at scale."
+      },
+      {
+        "icon": "Layers",
+        "title": "Extensive Motion Coverage",
+        "description": "Powered by Tencent HY-Motion 1.0, trained on over 3,000 hours of diverse motion data, Animotion supports more than 200 motion categories across locomotion, actions, and interactions."
+      },
+      {
+        "icon": "Globe",
+        "title": "Export to Standard Formats",
+        "description": "Generated animations can be exported in standard formats like FBX, BVH, and GLTF, making them compatible with Blender, Unity, Unreal Engine and other 3D pipelines."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Open-Source and Commercial Ready",
+        "description": "The underlying Tencent HY-Motion 1.0 model is released open-source with commercial use support, allowing developers to deploy locally and integrate into professional workflows."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Bilingual Prompt Support",
+        "description": "The model natively understands both English and Chinese text prompts, providing broad language flexibility for global users."
+      }
+    ],
     "ctaText": "Start Animating Now"
   },
   "cta": {
     "title": "Ready to Animate?",
-    "description": "Don’t let slow tools stall your creativity. HY-Motion 1.0 turns your ideas into 3D animations in seconds. No installation or login needed – just type and go.",
+    "description": "Don't let slow tools stall your creativity. Animotion powered by Tencent HY-Motion 1.0 technology turns your ideas into 3D animations in seconds. No installation or login needed - just type and go.",
     "button": {
       "text": "Start Animating for Free",
       "link": "/playground"

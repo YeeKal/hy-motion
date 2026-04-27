@@ -1,11 +1,11 @@
 {
     "seo": {
-      "title": "Pricing & Plans | Hy-Motion AI - Commercial License & Private Mode",
+      "title": "Pricing & Plans | Animotion AI - Commercial License & Private Mode",
   "description": "Choose the right plan for your 3D workflow. Start with the Free Trial or upgrade to Creator/Pro for full Commercial Licenses, Private Mode, Fast GPU access, and up to 16,000 monthly credits."
 },
     "hero": {
         "title": "Simple pricing <highlight>Instant creativity</highlight>",
-        "subtitle": "Choose the plan that fits your creative needs. Cancel anytime.\n No hidden fees, just pure HY-Motion AI power."
+        "subtitle": "Choose the plan that fits your creative needs. Cancel anytime.\n No hidden fees, just pure Animotion AI power."
     },
     "earlyBirds": {
         "badge": "LIMITED TIME",
@@ -14,7 +14,7 @@
         "endsIn": "Ends in:"
     },
     "creditsTable": {
-        "intro": "At HY-Motion, our credit system is simple and transparent.\n**Currently, we support HY-Motion-1.0 (1B), HY-Motion-1.0-Lite (0.46B).**\n\n### Credit Usage\n\n| Model | Status | Cost | Description |\n| :--- | :--- | :--- | :--- |\n| **HY-Motion-1.0 (1B)** | ✅ Available | **8 Credits / Image** | Our flagship model. Sub-second generation with photorealistic quality. |\n| **HY-Motion-1.0-Lite (0.46B)** | ✅ Available | **6 Credits / Image** | Faster generation with moderate quality. |\n| **HY-Motion-Base** | 🚧 Coming Soon | TBD | The foundational model, perfect for fine-tuning and developers. |\n| **More Models** | 📅 Planned | TBD | Support for Nano, Banana, Flux, and other community favorites. |\n\nYour credits reset at the beginning of each billing cycle."
+        "intro": "At Animotion, our credit system is simple and transparent.\n**Powered by Tencent HY-Motion 1.0 technology.**\n\n### Credit Usage\n\n| Model | Status | Cost | Description |\n| :--- | :--- | :--- | :--- |\n| **HY-Motion-1.0 (1B)** | \u2705 Available | **8 Credits / Image** | Our flagship model. Sub-second generation with photorealistic quality. |\n| **HY-Motion-1.0-Lite (0.46B)** | \u2705 Available | **6 Credits / Image** | Faster generation with moderate quality. |\n| **HY-Motion-Base** | \ud83d\udea7 Coming Soon | TBD | The foundational model, perfect for fine-tuning and developers. |\n| **More Models** | \ud83d\udcc5 Planned | TBD | Support for Nano, Banana, Flux, and other community favorites. |\n\nYour credits reset at the beginning of each billing cycle."
     },
     "creditsFaq": {
         "title": "Understanding Your Credits",

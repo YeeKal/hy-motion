@@ -5,27 +5,36 @@ import { getUserSession } from '@/lib/auth';
 import { deductUserCredits } from '@/lib/db';
 import { prisma } from "@/lib/prisma";
 import { HY_MOTION_MODELS } from '@/lib/hy-motion/constants';
+import { checkPromptModeration } from '@/lib/hy-motion/moderation-prompt';
 
 export const dynamic = 'force-dynamic';
 
 export async function POST(request: NextRequest) {
     const session = await getUserSession();
 
-        if (!session || !session.user) {
-            return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
-        }
+    if (!session || !session.user) {
+        return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
 
-        const body = await request.json();
-        const { prompt, duration = 5, modelId } = body;
+    const body = await request.json();
+    const { prompt, duration = 5, modelId } = body;
 
-        if (!prompt) {
-            return NextResponse.json({ error: "Prompt is required" }, { status: 400 });
-        }
+    if (!prompt) {
+        return NextResponse.json({ error: "Prompt is required" }, { status: 400 });
+    }
 
-        const model = HY_MOTION_MODELS.find(m => m.id === modelId);
-        if (!model) {
-            return NextResponse.json({ error: "Invalid model selected" }, { status: 400 });
-        }
+    const moderationResult = await checkPromptModeration(prompt);
+    if (moderationResult.decision === "deny" || moderationResult.decision === "flag") {
+        return NextResponse.json(
+            { error: "Your prompt was rejected. Please revise and try again" },
+            { status: 400 }
+        );
+    }
+
+    const model = HY_MOTION_MODELS.find(m => m.id === modelId);
+    if (!model) {
+        return NextResponse.json({ error: "Invalid model selected" }, { status: 400 });
+    }
 
     try {
         // Check credits
